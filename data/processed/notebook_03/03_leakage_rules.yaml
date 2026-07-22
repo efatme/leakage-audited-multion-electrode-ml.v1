@@ -1,0 +1,118 @@
+schema_version: '1.0'
+policy_version: 03_dependency_compiler_v1.0
+targets:
+- average_voltage
+- capacity_grav
+- capacity_vol
+- energy_grav
+- energy_vol
+- max_delta_volume
+- stability_charge
+- stability_discharge
+- stability_worst
+primary_benchmark_targets:
+- average_voltage
+- capacity_grav
+- energy_grav
+- max_delta_volume
+- stability_worst
+target_units:
+  average_voltage: V
+  capacity_grav: mAh/g
+  capacity_vol: mAh/cm3
+  energy_grav: Wh/kg
+  energy_vol: Wh/L_or_Wh/dm3_database_dependent
+  max_delta_volume: fraction_or_database_convention
+  stability_charge: eV/atom
+  stability_discharge: eV/atom
+  stability_worst: eV/atom
+target_groups:
+  capacity:
+  - capacity_grav
+  - capacity_vol
+  energy:
+  - energy_grav
+  - energy_vol
+  stability:
+  - stability_charge
+  - stability_discharge
+  - stability_worst
+  voltage:
+  - average_voltage
+  volume_change:
+  - max_delta_volume
+physical_dependencies:
+- source: average_voltage
+  target: energy_grav
+  relation: multiplicative_component
+  class: L2
+- source: capacity_grav
+  target: energy_grav
+  relation: multiplicative_component
+  class: L2
+- source: average_voltage
+  target: energy_vol
+  relation: multiplicative_component
+  class: L2
+- source: capacity_vol
+  target: energy_vol
+  relation: multiplicative_component
+  class: L2
+- source: stability_charge
+  target: stability_worst
+  relation: maximum_component
+  class: L2
+- source: stability_discharge
+  target: stability_worst
+  relation: maximum_component
+  class: L2
+- source: working_ion_transfer
+  target: capacity_grav
+  relation: stoichiometric_scale
+  class: L3
+- source: working_ion_transfer
+  target: capacity_vol
+  relation: stoichiometric_scale
+  class: L3
+feature_origin_workflow_stage:
+  composition_known_framework: pre_dft_composition
+  composition_known_working_ion: pre_dft_composition
+  stoichiometric_window: electrode_state_stoichiometry
+  relaxed_structure_summary: relaxed_structure
+  post_dft_energy_stability_summary: post_dft_thermodynamics
+  post_dft_electronic_summary: post_dft_electronic
+  post_dft_provenance_flag: post_dft_provenance
+  stored_electrode_process_descriptor: stored_electrode_record
+  stored_electrode_target: stored_electrode_record
+  domain_label_onehot: validation_only
+  other_numeric: derived_miscellaneous
+protocols:
+  P0:
+    name: full_feature_leaky_baseline_no_direct_target
+    deployment_stage: diagnostic
+  P1:
+    name: composition_only_clean
+    deployment_stage: pre_dft
+  P2:
+    name: composition_plus_relaxed_structure_clean_strict
+    deployment_stage: post_structure_pre_electrode_property
+  P3:
+    name: post_dft_decision_support_clean_target_specific
+    deployment_stage: post_dft_decision_support
+  P4:
+    name: leakage_stress_test
+    deployment_stage: diagnostic
+rule_priority:
+- RULE_DOMAIN_LABEL
+- RULE_DIRECT_TARGET
+- RULE_ENERGY_VOLTAGE_RELATION
+- RULE_CAPACITY_ENERGY_RELATION
+- RULE_ENERGY_DEFINITION
+- RULE_STABILITY_AGGREGATION
+- RULE_STOICHIOMETRIC_WINDOW
+- RULE_FORMATION_ENERGY_VOLTAGE
+- RULE_FORMATION_ENERGY_ENERGY
+- RULE_HULL_STABILITY
+- RULE_VOLUME_CHANGE
+- RULE_POST_DFT_*
+- RULE_SAFE_*

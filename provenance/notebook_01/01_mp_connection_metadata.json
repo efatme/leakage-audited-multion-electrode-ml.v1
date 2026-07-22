@@ -1,0 +1,15 @@
+{
+  "run_timestamp_utc": "2026-07-03T21:35:47Z",
+  "mp_database_version": "2026.04.13",
+  "electrode_route_selected": "materials.insertion_electrodes",
+  "electrode_routes_tried": [
+    "materials.insertion_electrodes"
+  ],
+  "summary_route_selected": "materials.summary",
+  "summary_routes_tried": [
+    "materials.summary"
+  ],
+  "summary_route_available": true,
+  "api_key_saved": false,
+  "api_key_printed": false
+}

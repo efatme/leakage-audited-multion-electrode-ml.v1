@@ -1,0 +1,39 @@
+STAGE 07F3 SSSP 1.3.0 ARCHIVE PAYLOAD AUDIT
+============================================================
+Archive published-MD5 verification: PASS
+License published-MD5 verification: PASS
+Target archive members found uniquely: 3/3
+Exact archive-to-local MD5 and SHA256 matches: 3/3
+Archive members matching Stage 07F2 metadata MD5: 3/3
+Absolute local paths in public outputs: NO
+UPF files copied into public repository: NO
+
+C.pbe-n-kjpaw_psl.1.0.0.UPF
+  archive_member=./C.pbe-n-kjpaw_psl.1.0.0.UPF
+  local_md5=5d2aebdfa2cae82b50a7e79e9516da0f
+  archive_member_md5=5d2aebdfa2cae82b50a7e79e9516da0f
+  local_sha256=9900d1efd50b9848e31849f39094b33348486b400ee51e0f3922f716137cf3d7
+  archive_member_sha256=9900d1efd50b9848e31849f39094b33348486b400ee51e0f3922f716137cf3d7
+  complete_payload_match=YES
+
+O.pbe-n-kjpaw_psl.0.1.UPF
+  archive_member=./O.pbe-n-kjpaw_psl.0.1.UPF
+  local_md5=0234752ac141de4415c5fc33072bef88
+  archive_member_md5=0234752ac141de4415c5fc33072bef88
+  local_sha256=7c4b6ed541f83d0afdf5c1d3a8c611340f073f3e2b11e95b7963bb2ee26929aa
+  archive_member_sha256=7c4b6ed541f83d0afdf5c1d3a8c611340f073f3e2b11e95b7963bb2ee26929aa
+  complete_payload_match=YES
+
+P.pbe-n-rrkjus_psl.1.0.0.UPF
+  archive_member=./P.pbe-n-rrkjus_psl.1.0.0.UPF
+  local_md5=8b930f418f0a4573dca56cd030ffe088
+  archive_member_md5=8b930f418f0a4573dca56cd030ffe088
+  local_sha256=2d112dfec2e2d9b75a971574d9116aa92249988177791659bbcd2ba15f23c20c
+  archive_member_sha256=2d112dfec2e2d9b75a971574d9116aa92249988177791659bbcd2ba15f23c20c
+  complete_payload_match=YES
+
+FINAL_07F3_DECISION=PASS_EXACT_ARCHIVED_SSSP_PAYLOAD_PROVENANCE
+PUBLIC_EXPORT_STATUS=PASS_READY_FOR_07G_CLEAN_ROOM_EXPORT
+LOCAL_UPF_FILES_MODIFIED=NO
+QE_CALCULATIONS_MODIFIED=NO
+NEW_QE_CALCULATIONS_LAUNCHED=NO

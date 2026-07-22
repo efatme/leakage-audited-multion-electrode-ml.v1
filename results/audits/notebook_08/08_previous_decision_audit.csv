@@ -1,0 +1,5 @@
+notebook,final_decision
+notebook_01,FULL_GO_TO_notebook_02
+notebook_02,FULL_GO_TO_notebook_04
+notebook_04,FULL_GO_TO_notebook_07
+notebook_07,FULL_GO_TO_notebook_08

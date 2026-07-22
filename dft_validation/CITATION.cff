@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite it using these metadata."
+title: "Quantum ESPRESSO fixed-geometry voltage spot check"
+type: software
+authors:
+  - family-names: "Efat"
+    given-names: "Md. Efatuzzaman"
+    email: "efatuzzaman@gmail.com"
+  - family-names: "Islam"
+    given-names: "Md. Saiful"
+contact:
+  - family-names: "Efat"
+    given-names: "Md. Efatuzzaman"
+    email: "efatuzzaman@gmail.com"
+version: "1.0.0"
+date-released: "2026-07-21"
+license: "BSD-3-Clause"
+abstract: "Reproducibility evidence for a convergence-audited fixed-geometry PBE average-voltage calculation for one representative sodium-ion insertion-electrode candidate."
+keywords:
+  - "Quantum ESPRESSO"
+  - "density functional theory"
+  - "sodium-ion battery"
+  - "insertion electrode"
+  - "voltage"
+  - "reproducibility"

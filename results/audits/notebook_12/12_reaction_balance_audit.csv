@@ -1,0 +1,5 @@
+check,pass
+same_non_na_host_composition,True
+positive_delta_na,True
+delta_na_matches_NaCoPCO7_to_Na3CoPCO7,True
+exact_input_volume_change_matches_database,True

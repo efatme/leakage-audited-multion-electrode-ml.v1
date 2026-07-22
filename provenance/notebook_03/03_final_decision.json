@@ -1,0 +1,15 @@
+{
+  "final_decision": "FULL_GO_TO_notebook_05",
+  "run_timestamp_utc": "2026-07-11T14:27:11+00:00",
+  "policy_version": "03_dependency_compiler_v1.0",
+  "n_target_feature_rows": 2430,
+  "n_features": 270,
+  "n_targets": 9,
+  "class_agreement_rate": 1.0,
+  "false_safe_n": 0,
+  "protocol_agreement_rate": 1.0,
+  "protocol_count_rows_all_agree": true,
+  "graph_nodes": 291,
+  "graph_edges": 2438,
+  "next_notebook": "05_physics_constrained_multitask_electrode_learning.ipynb"
+}

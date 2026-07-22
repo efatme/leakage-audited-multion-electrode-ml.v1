@@ -1,0 +1,34 @@
+DISCHARGED QE CLEAN-STOP REQUEST RECEIPT
+========================================
+Calculation:
+06_vc_relax/discharged
+
+QE prefix:
+c11_dis_vcr
+
+Stop-request method:
+Creation of tmp/c11_dis_vcr.EXIT
+
+Observed request-file creation:
+2026-07-21 approximately 19:19 +06:00
+
+Observed QE termination:
+2026-07-21 19:19:11 +06:00
+
+Observed terminal state after termination:
+QE ranks = 0
+JOB DONE count = 1
+Error in routine count = 0
+
+Post-termination status of request file:
+The temporary c11_dis_vcr.EXIT control file was no longer
+present after Quantum ESPRESSO completed the clean stop.
+The stop is evidenced by the preserved terminal record and
+the termination record in pw.out.
+
+Scientific decision:
+DISCHARGED_PROCESS_STATUS=STOPPED_CLEANLY
+DISCHARGED_GEOMETRY_CONVERGED=NO
+DISCHARGED_FINAL_RELAXED_ENERGY_ACCEPTED=NO
+USE_FOR_RELAXED_VOLTAGE=NO
+USE_AS_SUPPORTING_RELAXATION_AUDIT=YES

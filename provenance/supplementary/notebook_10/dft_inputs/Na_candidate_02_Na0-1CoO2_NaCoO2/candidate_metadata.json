@@ -1,0 +1,20 @@
+{
+  "manual_candidate_id": "Na_candidate_02",
+  "selection_role": "optional_control_not_primary",
+  "battery_formula": "Na0-1CoO2",
+  "formula_charge": "CoO2",
+  "formula_discharge": "NaCoO2",
+  "framework_formula": "CoO2",
+  "coarse_family": "transition_metal_oxide_like",
+  "average_voltage": 3.008840576551722,
+  "capacity_grav": 235.2621671087404,
+  "energy_grav": 707.86635452427,
+  "max_delta_volume": 0.095311966205387,
+  "stability_worst": 0.011452050000005,
+  "final_triage_score": 0.6908771992361679,
+  "best_annotation_status": "exact_or_near_exact_formula",
+  "best_analogue_level": "exact_formula",
+  "best_citation_title": "Sol-gel-based synthesis of high-capacity-NaCoO2 cathode for advanced sodium-ion batteries",
+  "selection_reason": "Optional control/calibration candidate with strong literature and simple oxide chemistry; not counted as a primary DFT spot-check.",
+  "reviewer_safety_note": "DFT spot-check candidate only; do not claim discovery or experimental validation."
+}

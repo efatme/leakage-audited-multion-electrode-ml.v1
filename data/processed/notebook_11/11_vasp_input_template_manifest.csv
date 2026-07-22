@@ -1,0 +1,13 @@
+candidate_id,selection_role,state_role,endpoint_id,template_written,relax_dir,static_template_dir,potcar_spec_present,licensed_potcar_present,error
+Na_candidate_06,primary,charged,mp-aaackrry,True,dft_inputs\Na_candidate_06\charged\01_relax,dft_inputs\Na_candidate_06\charged\02_static_template,True,False,
+Na_candidate_06,primary,discharged,mp-aaabrwlw,True,dft_inputs\Na_candidate_06\discharged\01_relax,dft_inputs\Na_candidate_06\discharged\02_static_template,True,False,
+Na_candidate_10,primary,charged,mp-aaabrunh,True,dft_inputs\Na_candidate_10\charged\01_relax,dft_inputs\Na_candidate_10\charged\02_static_template,True,False,
+Na_candidate_10,primary,discharged,mp-aaaabgtj,True,dft_inputs\Na_candidate_10\discharged\01_relax,dft_inputs\Na_candidate_10\discharged\02_static_template,True,False,
+Na_candidate_11,primary,charged,mp-aaabrhtw,True,dft_inputs\Na_candidate_11\charged\01_relax,dft_inputs\Na_candidate_11\charged\02_static_template,True,False,
+Na_candidate_11,primary,discharged,mp-aaaabcmv,True,dft_inputs\Na_candidate_11\discharged\01_relax,dft_inputs\Na_candidate_11\discharged\02_static_template,True,False,
+Na_candidate_15,primary,charged,mp-aaaabnjm,True,dft_inputs\Na_candidate_15\charged\01_relax,dft_inputs\Na_candidate_15\charged\02_static_template,True,False,
+Na_candidate_15,primary,discharged,mp-aaacrmqw,True,dft_inputs\Na_candidate_15\discharged\01_relax,dft_inputs\Na_candidate_15\discharged\02_static_template,True,False,
+Na_candidate_16,primary,charged,mp-aaabhhug,True,dft_inputs\Na_candidate_16\charged\01_relax,dft_inputs\Na_candidate_16\charged\02_static_template,True,False,
+Na_candidate_16,primary,discharged,mp-aaacqeli,True,dft_inputs\Na_candidate_16\discharged\01_relax,dft_inputs\Na_candidate_16\discharged\02_static_template,True,False,
+Na_candidate_02,optional_control,charged,mp-aaacupmn,True,dft_inputs\Na_candidate_02\charged\01_relax,dft_inputs\Na_candidate_02\charged\02_static_template,True,False,
+Na_candidate_02,optional_control,discharged,mp-aaabxjhz,True,dft_inputs\Na_candidate_02\discharged\01_relax,dft_inputs\Na_candidate_02\discharged\02_static_template,True,False,

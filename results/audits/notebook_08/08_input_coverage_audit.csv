@@ -1,0 +1,2 @@
+n_sodium_records,n_case_screen_pass,n_unique_framework_uid,n_unique_chemical_system_uid,n_unique_coarse_family,base_table
+416,180,321,205,9,${CMT_REPOSITORY_ROOT}\notebook_08\processed\08_sodium_candidate_base_table.csv

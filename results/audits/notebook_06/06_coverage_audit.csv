@@ -1,0 +1,4 @@
+dimension,observed,missing,pass
+protocols,P0|P1|P2|P3|P4,,True
+splits,framework_groupkfold|leave_chemical_system_out|leave_family_out|leave_working_ion_out|random_split,,True
+models,DummyMean|ExtraTrees|Ridge,,True

@@ -1,0 +1,20 @@
+{
+  "manual_candidate_id": "Na_candidate_10",
+  "selection_role": "primary_dft_spotcheck",
+  "battery_formula": "Na1-3FePCO7",
+  "formula_charge": "NaFePCO7",
+  "formula_discharge": "Na3FePCO7",
+  "framework_formula": "FePCO7",
+  "coarse_family": "polyanion_phosphate_like",
+  "average_voltage": 3.443899664051723,
+  "capacity_grav": 191.5797090750565,
+  "energy_grav": 659.781295722714,
+  "max_delta_volume": 0.010974811361596,
+  "stability_worst": 0.040621705954548,
+  "final_triage_score": 0.6496645577277298,
+  "best_annotation_status": "exact_or_near_exact_formula",
+  "best_analogue_level": "exact_formula",
+  "best_citation_title": "Cathode Properties of Na3FePO4CO3 Prepared by the Mechanical Ball Milling Method for Na-ion Batteries",
+  "selection_reason": "rank=10, triage=0.650, lit=exact_or_near_exact_formula:exact_formula, voltage=3.44 V, capacity=191.6 mAh/g, ΔV=0.011, stability=0.041. Selected as DFT spot-check candidate, not as discovery claim.",
+  "reviewer_safety_note": "DFT spot-check candidate only; do not claim discovery or experimental validation."
+}

@@ -1,0 +1,28 @@
+DISCHARGED VC-RELAX CLEAN-STOP AUDIT
+====================================
+Audit time: 2026-07-21T19:22:48+06:00
+
+QE ranks after stop: 0
+Completed force evaluations: 8
+JOB DONE count: 1
+Fatal Error-in-routine count: 0
+
+Latest force line:
+     Total force =     0.006784     Total SCF correction =     0.004793
+
+Latest completed pressure line:
+          total   stress  (Ry/bohr**3)                   (kbar)     P=        0.60
+
+QE termination record:
+     Program PWSCF v.7.5 starts on 20Jul2026 at 11:29: 7 
+     Current dimensions of program PWSCF are:
+     PWSCF        :   1d 6h14m CPU   1d 7h50m WALL
+   This run was terminated on:  19:19:11  21Jul2026            
+   JOB DONE.
+
+Decision records:
+DISCHARGED_PROCESS_STATUS=STOPPED_CLEANLY
+DISCHARGED_GEOMETRY_CONVERGED=NO
+DISCHARGED_FINAL_RELAXED_ENERGY_ACCEPTED=NO
+USE_FOR_RELAXED_VOLTAGE=NO
+USE_AS_SUPPORTING_RELAXATION_AUDIT=YES

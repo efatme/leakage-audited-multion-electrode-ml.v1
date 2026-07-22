@@ -1,0 +1,7 @@
+set,role,input_path,nat,normalization_divisor,C_raw,C_normalized,Co_raw,Co_normalized,Na_raw,Na_normalized,O_raw,O_normalized,P_raw,P_normalized
+selected_candidate,charged,05_kpoints/charged/k_5x6x4/pw.in,22,2,2,1.0,2,1.0,2,1.0,14,7.0,2,1.0
+selected_candidate,discharged,05_kpoints/discharged/k_3x3x2/pw.in,52,4,4,1.0,4,1.0,12,3.0,28,7.0,4,1.0
+selected_candidate,na_metal,05_kpoints/na_metal/k_12x12x12/pw.in,2,1,0,0.0,0,0.0,2,2.0,0,0.0,0,0.0
+denser_reference,charged,05_kpoints/charged/k_6x7x4/pw.in,22,2,2,1.0,2,1.0,2,1.0,14,7.0,2,1.0
+denser_reference,discharged,05_kpoints/discharged/k_4x4x3/pw.in,52,4,4,1.0,4,1.0,12,3.0,28,7.0,4,1.0
+denser_reference,na_metal,05_kpoints/na_metal/k_16x16x16/pw.in,2,1,0,0.0,0,0.0,2,2.0,0,0.0,0,0.0

@@ -1,0 +1,17 @@
+{
+  "initial_structure": "bcc Na, Im-3m",
+  "initial_lattice_a_angstrom": 4.23,
+  "n_atoms_in_reference_cell": 2,
+  "energy_normalization": "E_Na_atom = E_Na_static_cell / n_atoms",
+  "relax_kmesh": [
+    12,
+    12,
+    12
+  ],
+  "static_kmesh": [
+    18,
+    18,
+    18
+  ],
+  "potcar_policy": "Na_pv expected; verify against electrode POTCAR.spec"
+}

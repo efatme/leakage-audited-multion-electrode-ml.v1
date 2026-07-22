@@ -1,0 +1,127 @@
+query_id,manual_candidate_id,search_query,_source_file
+Q0003,Na_candidate_01,"""Na2VF5"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0010,Na_candidate_02,"""NaCoO2"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0017,Na_candidate_03,"""NaCoO2"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0022,Na_candidate_04,Na4Fe2(PO4)3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0024,Na_candidate_04,"""Na4Fe2(PO4)3"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0031,Na_candidate_05,"""NaMnF3"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0036,Na_candidate_06,Na3CoPO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0037,Na_candidate_06,Na3CoPO4CO3 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0046,Na_candidate_07,Na2CoP2O7 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0054,Na_candidate_08,Na2MnPO4F sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0064,Na_candidate_09,Na2Fe(CO3)(SO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0065,Na_candidate_09,Na2Fe(CO3)(SO4) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0066,Na_candidate_09,Na2Fe(SO4)(CO3) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0067,Na_candidate_09,Na2Fe(SO4)(CO3) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0071,Na_candidate_09,NaxFe(CO3)(SO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0072,Na_candidate_10,Na3FePO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0082,Na_candidate_11,Na3MnPO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0092,Na_candidate_12,Na2MnH4(SO5)2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0093,Na_candidate_12,Na2MnH4(SO5)2 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0094,Na_candidate_12,"""Na2MnH4(SO5)2"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0095,Na_candidate_12,NaxMnH4(SO5)2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0096,Na_candidate_12,MnH4(SO5)2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0097,Na_candidate_12,sodium manganese sulfate cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0098,Na_candidate_12,sulfate polyanion sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0099,Na_candidate_13,NaCoPO4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0106,Na_candidate_14,Na3NiPO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0116,Na_candidate_15,Na3Cr2(PO4)3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0123,Na_candidate_16,Na2MnP2O7 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0131,Na_candidate_17,Na3CoAsO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0132,Na_candidate_17,Na3CoAsO4CO3 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0133,Na_candidate_17,Na3Co(CO3)(AsO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0134,Na_candidate_17,Na3Co(CO3)(AsO4) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0135,Na_candidate_17,Na3Co(AsO4)(CO3) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0136,Na_candidate_17,Na3Co(AsO4)(CO3) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0137,Na_candidate_17,"""Na3CoAsO4CO3"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0138,Na_candidate_17,"""Na3Co(CO3)(AsO4)"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0139,Na_candidate_17,NaxCoAsO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0140,Na_candidate_17,NaxCo(CO3)(AsO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0141,Na_candidate_18,Na6Fe2(CO3)4SO4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0142,Na_candidate_18,Na6Fe2(CO3)4SO4 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0143,Na_candidate_18,Na6Fe2(CO3)4(SO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0144,Na_candidate_18,Na6Fe2(CO3)4(SO4) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0145,Na_candidate_18,Na6Fe2(SO4)(CO3)4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0146,Na_candidate_18,Na6Fe2(SO4)(CO3)4 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0147,Na_candidate_18,Na6Fe2C4SO16 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0148,Na_candidate_18,Na6Fe2C4SO16 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0149,Na_candidate_18,"""Na6Fe2(CO3)4SO4"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0150,Na_candidate_18,"""Na6Fe2(CO3)4(SO4)"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0151,Na_candidate_19,Na3FeAsO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0152,Na_candidate_19,Na3FeAsO4CO3 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0153,Na_candidate_19,Na3Fe(CO3)(AsO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0154,Na_candidate_19,Na3Fe(CO3)(AsO4) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0155,Na_candidate_19,Na3Fe(AsO4)(CO3) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0156,Na_candidate_19,Na3Fe(AsO4)(CO3) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0161,Na_candidate_20,Na3CrPO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0162,Na_candidate_20,Na3CrPO4CO3 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0163,Na_candidate_20,Na3Cr(CO3)(PO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0164,Na_candidate_20,Na3Cr(CO3)(PO4) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0171,Na_candidate_21,Na6Mn3(PO4)4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0172,Na_candidate_21,Na6Mn3(PO4)4 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0173,Na_candidate_21,"""Na6Mn3(PO4)4"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0174,Na_candidate_21,NaxMn3(PO4)4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0175,Na_candidate_21,Mn3(PO4)4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0176,Na_candidate_21,sodium manganese phosphate cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0177,Na_candidate_21,polyanion phosphate sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0178,Na_candidate_22,NaMnO2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0179,Na_candidate_22,NaMnO2 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0185,Na_candidate_23,NaVPO5 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0186,Na_candidate_23,NaVPO5 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0192,Na_candidate_24,NaVF4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0193,Na_candidate_24,NaVF4 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0194,Na_candidate_24,"""NaVF4"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0195,Na_candidate_24,NaxVF4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0199,Na_candidate_25,Na3MnAsO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0200,Na_candidate_25,Na3MnAsO4CO3 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0201,Na_candidate_25,Na3Mn(CO3)(AsO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0202,Na_candidate_25,Na3Mn(CO3)(AsO4) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0203,Na_candidate_25,Na3Mn(AsO4)(CO3) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0204,Na_candidate_25,Na3Mn(AsO4)(CO3) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0205,Na_candidate_25,"""Na3MnAsO4CO3"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0206,Na_candidate_25,"""Na3Mn(CO3)(AsO4)"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0207,Na_candidate_25,NaxMnAsO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0208,Na_candidate_25,NaxMn(CO3)(AsO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0209,Na_candidate_26,Na5Mn2(PO4)2(CO3)2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0210,Na_candidate_26,Na5Mn2(PO4)2(CO3)2 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0211,Na_candidate_26,Na5Mn2(CO3)2(PO4)2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0212,Na_candidate_26,Na5Mn2(CO3)2(PO4)2 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0213,Na_candidate_26,"""Na5Mn2(PO4)2(CO3)2"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0214,Na_candidate_26,"""Na5Mn2(CO3)2(PO4)2"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0215,Na_candidate_26,NaxMn2(PO4)2(CO3)2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0216,Na_candidate_26,NaxMn2(CO3)2(PO4)2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0217,Na_candidate_26,MnPO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0219,Na_candidate_27,Na2MnCO3SO4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0220,Na_candidate_27,Na2MnCO3SO4 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0221,Na_candidate_27,Na2Mn(CO3)(SO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0222,Na_candidate_27,Na2Mn(CO3)(SO4) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0223,Na_candidate_27,Na2Mn(SO4)(CO3) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0224,Na_candidate_27,Na2Mn(SO4)(CO3) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0225,Na_candidate_27,"""Na2MnCO3SO4"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0226,Na_candidate_27,"""Na2Mn(CO3)(SO4)"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0227,Na_candidate_27,NaxMnCO3SO4 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0228,Na_candidate_27,NaxMn(CO3)(SO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0229,Na_candidate_28,Na3VSiO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0230,Na_candidate_28,Na3VSiO4CO3 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0231,Na_candidate_28,Na3V(CO3)(SiO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0232,Na_candidate_28,Na3V(CO3)(SiO4) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0233,Na_candidate_28,Na3V(SiO4)(CO3) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0234,Na_candidate_28,Na3V(SiO4)(CO3) electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0235,Na_candidate_28,"""Na3VSiO4CO3"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0236,Na_candidate_28,"""Na3V(CO3)(SiO4)"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0237,Na_candidate_28,NaxVSiO4CO3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0238,Na_candidate_28,NaxV(CO3)(SiO4) sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0239,Na_candidate_29,NaMnO2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0240,Na_candidate_29,NaMnO2 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0241,Na_candidate_29,"""NaMnO2"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0242,Na_candidate_29,NaxMnO2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0243,Na_candidate_29,MnO2 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0244,Na_candidate_29,sodium manganese oxide cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0245,Na_candidate_29,layered transition metal oxide sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0246,Na_candidate_30,Na7Cr4(PO4)6 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0247,Na_candidate_30,Na7Cr4(PO4)6 electrode cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0248,Na_candidate_30,"""Na7Cr4(PO4)6"" sodium ion battery cathode",${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0249,Na_candidate_30,NaxCr4(PO4)6 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0250,Na_candidate_30,Cr2(PO4)3 sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0251,Na_candidate_30,sodium chromium phosphate cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv
+Q0252,Na_candidate_30,polyanion phosphate sodium ion battery cathode,${CMT_REPOSITORY_ROOT}\notebook_09\manual_inputs\09_manual_literature_annotations_FILLED.csv

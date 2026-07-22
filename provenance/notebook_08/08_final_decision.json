@@ -1,0 +1,16 @@
+{
+  "final_decision": "FULL_GO_TO_notebook_09",
+  "n_sodium_records": 416,
+  "n_case_screen_pass": 180,
+  "n_top20_manual_review": 20,
+  "n_missing_outputs": 0,
+  "missing_outputs": [],
+  "n_reviewer_safety_fail": 0,
+  "n_reviewer_safety_conditional": 0,
+  "ml_training_performed": false,
+  "cde_matching_performed": false,
+  "criticality_filtering_performed": false,
+  "manuscript_writing_performed": false,
+  "dft_candidate_selection_performed": false,
+  "discovery_claim_made": false
+}

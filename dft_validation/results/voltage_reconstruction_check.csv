@@ -1,0 +1,3 @@
+set,reaction_energy_ry,reaction_energy_ev,average_voltage_v,stage05c_voltage_v,abs_voltage_difference_from_stage05c_v
+selected_candidate,-0.47089419750003003,-6.406841944583936,3.203420972291968,3.203420972291968,0.0
+denser_reference,-0.47084137500004886,-6.406123257859203,3.2030616289296017,3.2030616289296017,0.0

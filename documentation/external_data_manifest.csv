@@ -1,0 +1,2 @@
+artifact_name,sha256,size_bytes,artifact_role,included_in_git,availability,notes
+07_uncertainty_predictions.csv,3031450ee01a939edf54d8a37c7d75369ef51e434b3ee8a2c31ea94555346144,121842944,FULL_UNCERTAINTY_PREDICTION_TABLE,NO,External data release or workflow regeneration,The file exceeds the repository threshold; summaries and regeneration code remain in Git.

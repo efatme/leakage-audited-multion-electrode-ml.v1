@@ -1,0 +1,20 @@
+{
+  "manual_candidate_id": "Na_candidate_15",
+  "selection_role": "primary_dft_spotcheck",
+  "battery_formula": "Na0-3Cr2(PO4)3",
+  "formula_charge": "Cr2(PO4)3",
+  "formula_discharge": "Na3Cr2(PO4)3",
+  "framework_formula": "Cr2(PO4)3",
+  "coarse_family": "polyanion_phosphate_like",
+  "average_voltage": 4.291304676551717,
+  "capacity_grav": 175.60325231964254,
+  "energy_grav": 753.5670578969732,
+  "max_delta_volume": 0.087594040190126,
+  "stability_worst": 0.061561507205885,
+  "final_triage_score": 0.6130931828354983,
+  "best_annotation_status": "exact_or_near_exact_formula",
+  "best_analogue_level": "exact_formula",
+  "best_citation_title": "High-Voltage Cr4+/Cr3+ Redox Couple in Polyanion Compounds",
+  "selection_reason": "rank=15, triage=0.613, lit=exact_or_near_exact_formula:exact_formula, voltage=4.29 V, capacity=175.6 mAh/g, ΔV=0.088, stability=0.062. Selected as DFT spot-check candidate, not as discovery claim.",
+  "reviewer_safety_note": "DFT spot-check candidate only; do not claim discovery or experimental validation."
+}

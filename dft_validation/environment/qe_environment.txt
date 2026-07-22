@@ -1,0 +1,179 @@
+QUANTUM ESPRESSO PUBLIC-SAFE ENVIRONMENT RECORD
+==========================================================
+
+platform_system=Linux
+platform_release=6.6.87.2-microsoft-standard-WSL2
+platform_machine=x86_64
+python_version=3.12.3
+
+OPERATING SYSTEM
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+
+UNAME
+Linux <HOST> 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+CPU SUMMARY
+CPU CORE SOCKET ONLINE
+  0    0      0    yes
+  1    0      0    yes
+  2    1      0    yes
+  3    1      0    yes
+  4    2      0    yes
+  5    2      0    yes
+  6    3      0    yes
+  7    3      0    yes
+  8    4      0    yes
+  9    4      0    yes
+ 10    5      0    yes
+ 11    5      0    yes
+ 12    6      0    yes
+ 13    6      0    yes
+ 14    7      0    yes
+ 15    7      0    yes
+ 16    8      0    yes
+ 17    8      0    yes
+ 18    9      0    yes
+ 19    9      0    yes
+ 20   10      0    yes
+ 21   10      0    yes
+ 22   11      0    yes
+ 23   11      0    yes
+ 24   12      0    yes
+ 25   12      0    yes
+ 26   13      0    yes
+ 27   13      0    yes
+ 28   14      0    yes
+ 29   14      0    yes
+ 30   15      0    yes
+ 31   15      0    yes
+ 32   16      0    yes
+ 33   16      0    yes
+ 34   17      0    yes
+ 35   17      0    yes
+ 36   18      0    yes
+ 37   18      0    yes
+ 38   19      0    yes
+ 39   19      0    yes
+ 40   20      0    yes
+ 41   20      0    yes
+ 42   21      0    yes
+ 43   21      0    yes
+ 44   22      0    yes
+ 45   22      0    yes
+ 46   23      0    yes
+ 47   23      0    yes
+
+CPU MODEL AND TOPOLOGY
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        46 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               48
+On-line CPU(s) list:                  0-47
+Vendor ID:                            GenuineIntel
+Model name:                           Intel(R) Xeon(R) Silver 4214R CPU @ 2.40GHz
+CPU family:                           6
+Model:                                85
+Thread(s) per core:                   2
+Core(s) per socket:                   24
+Socket(s):                            1
+Stepping:                             7
+BogoMIPS:                             4800.00
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512_vnni md_clear flush_l1d arch_capabilities
+Hypervisor vendor:                    Microsoft
+Virtualization type:                  full
+L1d cache:                            768 KiB (24 instances)
+L1i cache:                            768 KiB (24 instances)
+L2 cache:                             24 MiB (24 instances)
+L3 cache:                             16.5 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-47
+Vulnerability Gather data sampling:   Unknown: Dependent on hypervisor status
+Vulnerability Itlb multihit:          KVM: Mitigation: VMX unsupported
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Mitigation; Enhanced IBRS
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Mitigation; TSX disabled
+
+MEMORY
+total        used        free      shared  buff/cache   available
+Mem:           188Gi       2.0Gi       187Gi       3.6Mi       216Mi       186Gi
+Swap:           48Gi          0B        48Gi
+
+QUANTUM ESPRESSO
+pw_x_available=YES
+pw_x_path=$HOME/cmt-dft/software/qe-7.5/bin/pw.x
+pw_x_version_output=COMMAND_TIMED_OUT
+
+MPI
+mpirun_available=YES
+mpirun_path=/usr/bin/mpirun
+mpirun (Open MPI) 4.1.6
+
+Report bugs to http://www.open-mpi.org/community/help/
+
+COMPILERS
+gcc_path=/usr/bin/gcc
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+gfortran_path=/usr/bin/gfortran
+GNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+
+PYTHON
+python3_path=/usr/bin/python3
+Python 3.12.3
+
+LINKED LIBRARIES FOR PW.X
+linux-vdso.so.1 (0x00007ffe40ff8000)
+	libopenblas.so.0 => /lib/x86_64-linux-gnu/libopenblas.so.0 (0x000009b850820000)
+	libfftw3.so.3 => /lib/x86_64-linux-gnu/libfftw3.so.3 (0x000009b850400000)
+	libmpi_mpifh.so.40 => /lib/x86_64-linux-gnu/libmpi_mpifh.so.40 (0x000009b854b61000)
+	libgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x000009b850000000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x000009b850737000)
+	libmvec.so.1 => /lib/x86_64-linux-gnu/libmvec.so.1 (0x000009b85063e000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x000009b854b31000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x000009b84fc00000)
+	/lib64/ld-linux-x86-64.so.2 (0x000009b854bd0000)
+	libmpi.so.40 => /lib/x86_64-linux-gnu/libmpi.so.40 (0x000009b84fece000)
+	libopen-pal.so.40 => /lib/x86_64-linux-gnu/libopen-pal.so.40 (0x000009b85034c000)
+	libopen-rte.so.40 => /lib/x86_64-linux-gnu/libopen-rte.so.40 (0x000009b84fe12000)
+	libhwloc.so.15 => /lib/x86_64-linux-gnu/libhwloc.so.15 (0x000009b84fb9f000)
+	libevent_core-2.1.so.7 => /lib/x86_64-linux-gnu/libevent_core-2.1.so.7 (0x000009b84fb6a000)
+	libevent_pthreads-2.1.so.7 => /lib/x86_64-linux-gnu/libevent_pthreads-2.1.so.7 (0x000009b854b2a000)
+	libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x000009b854b0e000)
+	libudev.so.1 => /lib/x86_64-linux-gnu/libudev.so.1 (0x000009b84fb37000)
+	libcap.so.2 => /lib/x86_64-linux-gnu/libcap.so.2 (0x000009b850631000)
+
+EXECUTION POLICY
+production_mpi_ranks=12
+maximum_concurrent_qe_jobs_used=2
+maximum_total_active_mpi_ranks_used=24
+gpu_acceleration_used=NO
+
+SCIENTIFIC SCOPE
+fixed_geometry_voltage_spot_check=YES
+fully_relaxed_voltage_available=NO
+phonon_calculations_performed=NO
+diffusion_calculations_performed=NO
+electronic_band_structure_performed=NO
+density_of_states_performed=NO

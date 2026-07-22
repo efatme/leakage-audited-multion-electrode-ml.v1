@@ -1,0 +1,10 @@
+{
+  "ml_training_performed": false,
+  "ranking_performed": true,
+  "ranking_type": "transparent sodium case-study triage only",
+  "cde_matching_performed": false,
+  "criticality_filtering_performed": false,
+  "manuscript_writing_performed": false,
+  "dft_candidate_selection_performed": false,
+  "discovery_claim_made": false
+}

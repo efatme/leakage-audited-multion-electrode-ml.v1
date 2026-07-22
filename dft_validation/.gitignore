@@ -1,0 +1,21 @@
+# Quantum ESPRESSO runtime data
+tmp/
+*.save/
+*.wfc*
+charge-density.dat
+*.mix*
+*.restart
+
+# Local pseudopotential copies
+pseudopotentials/
+*.UPF
+*.upf
+
+# Python
+__pycache__/
+*.pyc
+
+# Local environment
+.env
+.DS_Store
+Thumbs.db

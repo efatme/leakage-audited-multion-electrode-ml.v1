@@ -1,0 +1,4 @@
+working_ion,n_records,n_unique_electrode_uid,n_unique_framework_uid,n_unique_framework_formula_reduced,n_unique_chemsys,n_unique_host_chemsys_no_working_ion,median_records_per_framework_uid,max_records_per_framework_uid,n_single_step_records,n_multi_step_records
+K,164,164,147,147,123,123,1.0,4,153,11
+Li,2774,2774,1572,1572,670,670,1.0,37,2298,476
+Na,416,416,321,321,205,205,1.0,8,366,50

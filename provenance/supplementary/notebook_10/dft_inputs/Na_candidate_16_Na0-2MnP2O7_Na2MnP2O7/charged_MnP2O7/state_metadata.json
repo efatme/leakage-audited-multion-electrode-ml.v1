@@ -1,0 +1,30 @@
+{
+  "manual_candidate_id": "Na_candidate_16",
+  "state": "charged",
+  "target_formula": "MnP2O7",
+  "generation_status": "input_files_written",
+  "resolution_info": {
+    "manual_candidate_id": "Na_candidate_16",
+    "selection_role": "primary_dft_spotcheck",
+    "state": "charged",
+    "target_formula": "MnP2O7",
+    "resolved_material_id": "mp-771660",
+    "resolved_formula_pretty": "MnP2O7",
+    "resolved_energy_above_hull": 0.0,
+    "resolution_status": "resolved",
+    "resolution_note": ""
+  },
+  "files_written": [
+    "structure.cif",
+    "POSCAR",
+    "INCAR",
+    "KPOINTS",
+    "POSCAR",
+    "POTCAR.spec",
+    "STRUCTURE_REQUIRED.md",
+    "state_metadata.json",
+    "structure.cif",
+    "qe_vc_relax_TEMPLATE.in",
+    "run_vasp_slurm_TEMPLATE.sh"
+  ]
+}

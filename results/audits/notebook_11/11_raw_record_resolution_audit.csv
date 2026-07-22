@@ -1,0 +1,7 @@
+candidate_id,id_charge,id_discharge,n_raw_records_containing_both_exact_ids,raw_record_position,resolution_method,pass
+Na_candidate_06,mp-aaackrry,mp-aaabrwlw,1,56,both_exact_endpoint_ids_in_same_raw_record,True
+Na_candidate_10,mp-aaabrunh,mp-aaaabgtj,1,73,both_exact_endpoint_ids_in_same_raw_record,True
+Na_candidate_11,mp-aaabrhtw,mp-aaaabcmv,1,87,both_exact_endpoint_ids_in_same_raw_record,True
+Na_candidate_15,mp-aaaabnjm,mp-aaacrmqw,1,120,both_exact_endpoint_ids_in_same_raw_record,True
+Na_candidate_16,mp-aaabhhug,mp-aaacqeli,1,189,both_exact_endpoint_ids_in_same_raw_record,True
+Na_candidate_02,mp-aaacupmn,mp-aaabxjhz,1,286,both_exact_endpoint_ids_in_same_raw_record,True

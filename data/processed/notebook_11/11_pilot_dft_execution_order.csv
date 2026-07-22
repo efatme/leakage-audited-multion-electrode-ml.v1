@@ -1,0 +1,7 @@
+pilot_order,candidate_id,purpose
+1,Na_candidate_06,first complete charged/discharged pair and Na-reference workflow validation
+2,Na_candidate_15,cross-family protocol validation after the first pair succeeds
+3,Na_candidate_10,same-framework transition-metal substitution comparison
+4,Na_candidate_11,second same-framework substitution comparison
+5,Na_candidate_16,pyrophosphate cross-family comparison
+6,Na_candidate_02,optional oxide control only after the primary cases are stable

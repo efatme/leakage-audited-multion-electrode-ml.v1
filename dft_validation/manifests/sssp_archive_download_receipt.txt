@@ -1,0 +1,17 @@
+SSSP 1.3.0 ARCHIVE DOWNLOAD RECEIPT
+================================================
+official_record_url=https://archive.materialscloud.org/records/rcyfm-68h65
+official_archive_url=https://archive.materialscloud.org/records/rcyfm-68h65/files/SSSP_1.3.0_PBE_efficiency.tar.gz?download=1
+archive_filename=SSSP_1.3.0_PBE_efficiency.tar.gz
+archive_size_bytes=59513522
+published_archive_md5=a58f1b3373f330179fd0832c48bb9a52
+downloaded_archive_md5=a58f1b3373f330179fd0832c48bb9a52
+archive_md5_match=PASS
+downloaded_archive_sha256=7a85b71fa3d68df1b5ed33c55c7057681fbf10377ae3b3eac9392924d9189f12
+license_url=https://archive.materialscloud.org/records/rcyfm-68h65/files/LICENSE.txt?download=1
+published_license_md5=c0f9df05fb4cd4921f4caa25606815ef
+downloaded_license_md5=c0f9df05fb4cd4921f4caa25606815ef
+license_md5_match=PASS
+downloaded_license_sha256=8028d9d7fcad7932bb5551dc0a60cff6c6b7f7aa2bd480f516a2faaa09d943a1
+private_archive_retained=<PRIVATE_ARCHIVE_RETAINED_OFFLINE>
+archive_in_public_repository=NO

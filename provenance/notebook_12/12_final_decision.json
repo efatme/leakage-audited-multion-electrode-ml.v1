@@ -1,0 +1,13 @@
+{
+  "final_decision": "PILOT_PACKAGE_READY_RESOURCE_CONFIRMATION_REQUIRED",
+  "run_timestamp_utc": "2026-07-12T04:37:52.805720+00:00",
+  "pilot_candidate": "Na_candidate_06",
+  "delta_na_per_host_formula_unit": 2.0,
+  "charged_host_formula_units_per_cell": 2.0,
+  "discharged_host_formula_units_per_cell": 4.0,
+  "na_reference_atoms_per_cell": 2,
+  "resource_configuration_complete": false,
+  "dft_calculations_run": false,
+  "licensed_potcar_written": false,
+  "next_action": "Complete and verify pilot_dft_resource_config.yaml before job submission."
+}

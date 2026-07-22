@@ -1,0 +1,16 @@
+{
+  "final_decision": "FULL_GO_TO_notebook_06",
+  "run_timestamp_utc": "2026-07-11T17:22:02.212757+00:00",
+  "run_mode": "FULL",
+  "expected_configurations": 294,
+  "ok_configurations": 294,
+  "error_configurations": 0,
+  "physics_value_gate": true,
+  "next_step": "Proceed to Notebook 06 only after independent audit of this complete output package.",
+  "no_dft_performed": true,
+  "no_candidate_ranking_performed": true,
+  "no_manuscript_writing_performed": true,
+  "notebook10_record_level_split_manifest_available": false,
+  "notebook10b_record_level_split_manifest_persisted": true,
+  "split_reuse_claim": "leave-out groups reconstructed exactly; random/framework design-compatible; all Notebook 05 methods share one exact persisted manifest"
+}

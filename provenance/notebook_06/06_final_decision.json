@@ -1,0 +1,13 @@
+{
+  "final_decision": "FULL_GO_TO_EXACT_STATE_DFT_PREPARATION",
+  "run_timestamp_utc": "2026-07-11T19:25:55.372396+00:00",
+  "n_notebook10_fold_rows": 7350,
+  "n_paired_protocol_rows": 5856,
+  "n_interaction_rows": 240,
+  "n_bootstrap_rows": 240,
+  "physics_value_gate": true,
+  "next_step": "Proceed to corrected exact-state DFT preparation while preserving Notebooks 11–13 as completed evidence.",
+  "no_dft_performed": true,
+  "no_candidate_ranking_performed": true,
+  "no_manuscript_writing_performed": true
+}

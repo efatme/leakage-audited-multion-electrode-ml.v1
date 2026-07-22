@@ -1,0 +1,14 @@
+default_max_leakage_level_across_targets,feature_origin,n_features
+L0,composition_known_framework,68
+L0,composition_known_working_ion,5
+L0,other_numeric,1
+L0,relaxed_structure_summary,4
+L0,stored_electrode_process_descriptor,1
+L2,relaxed_structure_summary,16
+L3,stoichiometric_window,143
+L4,post_dft_electronic_summary,6
+L4,post_dft_energy_stability_summary,11
+L4,post_dft_provenance_flag,2
+L4,stored_electrode_process_descriptor,1
+L4,stored_electrode_target,9
+L5,domain_label_onehot,3

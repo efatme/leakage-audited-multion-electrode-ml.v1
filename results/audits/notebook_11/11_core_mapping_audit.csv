@@ -1,0 +1,7 @@
+candidate_id,n_core_matches,record_index_match,electrode_uid_match,id_charge_match,id_discharge_match,pass
+Na_candidate_06,1,True,True,True,True,True
+Na_candidate_10,1,True,True,True,True,True
+Na_candidate_11,1,True,True,True,True,True
+Na_candidate_15,1,True,True,True,True,True
+Na_candidate_16,1,True,True,True,True,True
+Na_candidate_02,1,True,True,True,True,True

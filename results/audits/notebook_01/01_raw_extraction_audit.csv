@@ -1,0 +1,4 @@
+working_ion,n_records,raw_json_path,raw_flat_csv_path,mode,field_strategy,ion_strategy,all_docs_n,electrode_route_selected,mp_database_version
+Li,2774,${CMT_REPOSITORY_ROOT}\notebook_01\raw\mp_Li_insertion_electrodes_raw.json,${CMT_REPOSITORY_ROOT}\notebook_01\raw\mp_Li_insertion_electrodes_raw_flat.csv,direct_endpoint_query,all_discovered_fields,working_ion_string,,materials.insertion_electrodes,2026.04.13
+Na,416,${CMT_REPOSITORY_ROOT}\notebook_01\raw\mp_Na_insertion_electrodes_raw.json,${CMT_REPOSITORY_ROOT}\notebook_01\raw\mp_Na_insertion_electrodes_raw_flat.csv,direct_endpoint_query,all_discovered_fields,working_ion_string,,materials.insertion_electrodes,2026.04.13
+K,164,${CMT_REPOSITORY_ROOT}\notebook_01\raw\mp_K_insertion_electrodes_raw.json,${CMT_REPOSITORY_ROOT}\notebook_01\raw\mp_K_insertion_electrodes_raw_flat.csv,direct_endpoint_query,all_discovered_fields,working_ion_string,,materials.insertion_electrodes,2026.04.13

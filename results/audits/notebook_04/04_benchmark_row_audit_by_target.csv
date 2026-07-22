@@ -1,0 +1,6 @@
+target,target_unit,mask_used,n_valid_records,n_total_records,valid_pct,n_working_ions,n_framework_groups,n_chemical_systems,n_families
+average_voltage,V,mask_physics_plausible_all_targets,3201,3354,95.43828264758497,3,1955,709,10
+capacity_grav,mAh/g,mask_physics_plausible_all_targets,3201,3354,95.43828264758497,3,1955,709,10
+energy_grav,Wh/kg,mask_physics_plausible_all_targets,3201,3354,95.43828264758497,3,1955,709,10
+max_delta_volume,database_volume_change,mask_physics_plausible_all_targets,3201,3354,95.43828264758497,3,1955,709,10
+stability_worst,eV/atom,mask_physics_plausible_all_targets,3201,3354,95.43828264758497,3,1955,709,10

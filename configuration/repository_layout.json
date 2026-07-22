@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "section_map": {
+    "01": {
+      "audit": "results/audits/notebook_01",
+      "logs": "provenance/notebook_01",
+      "metadata": "provenance/notebook_01",
+      "processed": "data/processed/notebook_01",
+      "raw": "data/raw/notebook_01"
+    },
+    "02": {
+      "audit": "results/audits/notebook_02",
+      "logs": "provenance/notebook_02",
+      "metadata": "provenance/notebook_02",
+      "processed": "data/processed/notebook_02"
+    },
+    "03": {
+      "audit": "results/audits/notebook_03",
+      "logs": "provenance/notebook_03",
+      "metadata": "provenance/notebook_03",
+      "processed": "data/processed/notebook_03",
+      "software": "software/notebook_03",
+      "tests": "software/tests/notebook_03"
+    },
+    "04": {
+      "audit": "results/audits/notebook_04",
+      "logs": "provenance/notebook_04",
+      "metadata": "provenance/notebook_04",
+      "processed": "data/processed/notebook_04"
+    },
+    "05": {
+      "audit": "results/audits/notebook_05",
+      "checkpoints": ".runtime_cache/notebook_05/checkpoints",
+      "logs": "provenance/notebook_05",
+      "metadata": "provenance/notebook_05",
+      "metrics": "results/metrics/notebook_05",
+      "models": "results/models/notebook_05",
+      "processed": "data/processed/notebook_05"
+    },
+    "06": {
+      "audit": "results/audits/notebook_06",
+      "logs": "provenance/notebook_06",
+      "metadata": "provenance/notebook_06",
+      "metrics": "results/metrics/notebook_06",
+      "processed": "data/processed/notebook_06"
+    },
+    "07": {
+      "audit": "results/audits/notebook_07",
+      "checkpoints": ".runtime_cache/notebook_07/checkpoints",
+      "logs": "provenance/notebook_07",
+      "metadata": "provenance/notebook_07",
+      "processed": "data/processed/notebook_07"
+    },
+    "08": {
+      "processed": "data/processed/notebook_08"
+    },
+    "09": {
+      "audit": "results/audits/notebook_09",
+      "logs": "provenance/notebook_09",
+      "manual_inputs": "provenance/supplementary/notebook_09/manual_inputs",
+      "metadata": "provenance/notebook_09",
+      "processed": "data/processed/notebook_09"
+    },
+    "11": {
+      "audit": "results/audits/notebook_11",
+      "dft_inputs": "documentation/notebook_11/dft_inputs",
+      "exact_structures": "provenance/supplementary/notebook_11/exact_structures",
+      "logs": "provenance/notebook_11",
+      "metadata": "provenance/notebook_11",
+      "processed": "data/processed/notebook_11"
+    },
+    "12": {
+      "audit": "results/audits/notebook_12",
+      "logs": "provenance/notebook_12",
+      "metadata": "provenance/notebook_12",
+      "pilot_dft_package": "documentation/notebook_12/pilot_dft_package",
+      "processed": "data/processed/notebook_12"
+    }
+  }
+}

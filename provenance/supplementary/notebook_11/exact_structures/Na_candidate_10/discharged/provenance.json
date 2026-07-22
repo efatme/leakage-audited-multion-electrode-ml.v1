@@ -1,0 +1,15 @@
+{
+  "candidate_id": "Na_candidate_10",
+  "selection_role": "primary",
+  "record_index": "Na_000073",
+  "electrode_uid": "el_31d54be5f7dfc2b4",
+  "state_role": "discharged",
+  "exact_endpoint_id": "mp-aaaabgtj",
+  "resolution_method": "exact_endpoint_id_in_authoritative_notebook08_raw_record",
+  "source_raw_json_sha256": "eafde4c6b49a2281f4f54dde6741817572f3b43cdb7f45d0d232159ab995c1b3",
+  "structure_formula": "Na3FePCO7",
+  "nsites": 26,
+  "volume": 316.76615565222943,
+  "is_ordered": true,
+  "generated_utc": "2026-07-11T19:45:18.056646+00:00"
+}

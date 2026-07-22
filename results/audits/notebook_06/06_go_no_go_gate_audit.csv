@@ -1,0 +1,11 @@
+gate,pass
+input_decisions_accepted,True
+notebook10_all_rows_ok,True
+required_protocols_splits_models_present,True
+notebook10b_split_audit_passed,True
+paired_protocol_effects_nonempty,True
+domain_effects_nonempty,True
+interaction_effects_nonempty,True
+bootstrap_intervals_complete,True
+physics_consistency_improved_in_majority_of_folds,True
+record_level_manifest_available,True

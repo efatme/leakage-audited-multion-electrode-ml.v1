@@ -1,0 +1,8 @@
+model_name,model_repr,uses_tree_n_jobs,n_jobs_tree_models
+DummyMean,DummyRegressor(),False,
+Ridge,"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler()), ('model', Ridge())])",False,
+ExtraTrees,"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('model',
+                 ExtraTreesRegressor(n_estimators=300, n_jobs=18,
+                                     random_state=42))])",True,18.0

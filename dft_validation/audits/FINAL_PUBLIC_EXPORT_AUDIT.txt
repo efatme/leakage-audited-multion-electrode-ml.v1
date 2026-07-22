@@ -1,0 +1,39 @@
+FINAL PUBLIC RELEASE-CANDIDATE AUDIT
+====================================================
+Source clean export: cmt_qe_public_export_20260721T151548Z
+Final release candidate: cmt_qe_public_release_candidate_20260721T155107Z
+Public Python scripts: 2/2
+Public script syntax: PASS
+Source-layout references in public scripts: 0
+Privacy-string hits: 0
+Legacy-project string hits: 0
+Completed static QE outputs: 8/8
+Completed static QE output audit: PASS
+Accepted energy-chain records: 6/6
+Accepted energy-chain audit: PASS
+Pseudopotential provenance records: 5/5
+Pseudopotential provenance audit: PASS
+Bundled UPF files: 0
+Files exceeding 90 MiB: 0
+Voltage reconstruction: PASS
+Root BSD-3-Clause license: PASS
+CITATION.cff structural check: PASS
+Corresponding-author email recorded: PASS
+Public verification-script self-test: PASS
+
+SCIENTIFIC STATUS
+CHARGED_STATIC_SCF=PASS
+CHARGED_GEOMETRY_CONVERGED=NO
+DISCHARGED_PROCESS_STATUS=STOPPED_CLEANLY
+DISCHARGED_GEOMETRY_CONVERGED=NO
+DISCHARGED_FINAL_RELAXED_ENERGY_ACCEPTED=NO
+MATCHED_RELAXED_VOLTAGE_AVAILABLE=NO
+USE_RELAXATION_ENERGIES_FOR_VOLTAGE=NO
+MATCHED_FIXED_GEOMETRY_VOLTAGE_AVAILABLE=YES
+SELECTED_FIXED_GEOMETRY_VOLTAGE_V=3.203420972291968
+REFERENCE_FIXED_GEOMETRY_VOLTAGE_V=3.203061628929602
+ABSOLUTE_VOLTAGE_DIFFERENCE_V=0.000359343362367
+
+FINAL_07I_DECISION=PASS_PUBLIC_RELEASE_CANDIDATE_READY_FOR_GIT_REVIEW
+GIT_REPOSITORY_INITIALIZED=NO
+PUBLIC_UPLOAD_PERFORMED=NO

@@ -1,0 +1,66 @@
+{
+  "run_timestamp_utc": "2026-07-04T10:25:43Z",
+  "case_study_protocol": "P3",
+  "case_study_split": "leave_working_ion_out",
+  "triage_targets": [
+    "average_voltage",
+    "capacity_grav",
+    "energy_grav",
+    "max_delta_volume",
+    "stability_worst"
+  ],
+  "case_study_thresholds": {
+    "average_voltage_min": 2.0,
+    "average_voltage_max": 4.5,
+    "capacity_grav_min": 50.0,
+    "energy_grav_min": 150.0,
+    "max_delta_volume_max": 0.35,
+    "stability_worst_max": 0.1
+  },
+  "score_ranges": {
+    "average_voltage": {
+      "low": 2.0,
+      "high": 4.5,
+      "direction": "benefit"
+    },
+    "capacity_grav": {
+      "low": 50.0,
+      "high": 250.0,
+      "direction": "benefit"
+    },
+    "energy_grav": {
+      "low": 150.0,
+      "high": 900.0,
+      "direction": "benefit"
+    },
+    "max_delta_volume": {
+      "good": 0.0,
+      "bad": 0.35,
+      "direction": "cost"
+    },
+    "stability_worst": {
+      "good": 0.0,
+      "bad": 0.1,
+      "direction": "cost"
+    }
+  },
+  "score_weights": {
+    "average_voltage": 0.2,
+    "capacity_grav": 0.25,
+    "energy_grav": 0.3,
+    "max_delta_volume": 0.1,
+    "stability_worst": 0.15
+  },
+  "rank_mc_samples": 500,
+  "random_seed": 42,
+  "assertions": {
+    "ml_training_performed": false,
+    "ranking_performed": true,
+    "ranking_type": "transparent sodium case-study triage only",
+    "cde_matching_performed": false,
+    "criticality_filtering_performed": false,
+    "manuscript_writing_performed": false,
+    "dft_candidate_selection_performed": false,
+    "discovery_claim_made": false
+  }
+}

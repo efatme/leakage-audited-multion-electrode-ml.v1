@@ -1,0 +1,8 @@
+{
+  "python": "3.11.14 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 18:30:03) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.20348-SP0",
+  "numpy": "1.26.4",
+  "pandas": "3.0.3",
+  "pymatgen": "unknown",
+  "run_timestamp_utc": "2026-07-12T04:37:52.805720+00:00"
+}

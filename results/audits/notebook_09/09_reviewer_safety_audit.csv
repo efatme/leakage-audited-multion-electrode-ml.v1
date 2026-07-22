@@ -1,0 +1,6 @@
+check_item,status,observed,required,interpretation
+automatic_google_scholar_scraping,PASS,False,False,Notebook generates URLs and search queries only; it does not scrape Google Scholar.
+literature_unfriendly_queries_removed_from_manual_csv,PASS,0,0,Manual CSV should avoid MP-style battery-window and condensed PCO7/CSO7/AsCO7/SiCO7 queries.
+archived_unfriendly_query_audit_created,PASS,${CMT_REPOSITORY_ROOT}\notebook_09\audit\09_literature_unfriendly_query_audit.csv,audit file exists,Problematic formulas are preserved for transparency but not used as the main manual-search workload.
+minimum_query_coverage,PASS,7,>=6 per candidate,"Each candidate should have enough formula, grouped-formula, variable-sodium, and phrase-based queries."
+manual_literature_not_record_validation,PASS,do_not_use_as_discovery_claim defaults True,True,Literature analogues support chemical relevance only and do not validate computed MP values/ranks.

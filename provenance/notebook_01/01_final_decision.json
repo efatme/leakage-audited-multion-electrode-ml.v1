@@ -1,0 +1,16 @@
+{
+  "final_decision": "FULL_GO_TO_notebook_02",
+  "has_critical_fail": false,
+  "has_any_fail": false,
+  "has_any_conditional": false,
+  "n_total_records": 3354,
+  "records_by_ion": {
+    "Li": 2774,
+    "Na": 416,
+    "K": 164
+  },
+  "n_framework_groups": 2040,
+  "n_chemsys_groups": 769,
+  "minimum_structure_route_coverage_pct_across_ions": 100.0,
+  "summary_coverage_pct": 99.81511914543961
+}

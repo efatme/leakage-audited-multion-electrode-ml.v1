@@ -1,0 +1,15 @@
+{
+  "notebook": "03_dependency_graph_and_leakage_compiler.ipynb",
+  "run_timestamp_utc": "2026-07-11T14:27:11+00:00",
+  "policy_version": "03_dependency_compiler_v1.0",
+  "input_notebook_09_root": "${CMT_REPOSITORY_ROOT}\\notebook_02",
+  "output_root": "${CMT_REPOSITORY_ROOT}\\notebook_03",
+  "authoritative_compiled_matrix": "${CMT_REPOSITORY_ROOT}\\notebook_03\\processed\\03_compiled_target_feature_matrix.csv",
+  "compiled_feature_sets": "${CMT_REPOSITORY_ROOT}\\notebook_03\\processed\\03_compiled_feature_sets_by_target.csv",
+  "dependency_graph_json": "${CMT_REPOSITORY_ROOT}\\notebook_03\\processed\\03_battery_property_dependency_graph.json",
+  "dependency_graph_graphml": "${CMT_REPOSITORY_ROOT}\\notebook_03\\processed\\03_battery_property_dependency_graph.graphml",
+  "leakage_rules_yaml": "${CMT_REPOSITORY_ROOT}\\notebook_03\\processed\\03_leakage_rules.yaml",
+  "compiler_module": "${CMT_REPOSITORY_ROOT}\\notebook_03\\software\\electrode_audit\\leakage_compiler.py",
+  "compiler_validation_summary": "${CMT_REPOSITORY_ROOT}\\notebook_03\\audit\\03_compiler_validation_summary.csv",
+  "final_decision": "FULL_GO_TO_notebook_05"
+}

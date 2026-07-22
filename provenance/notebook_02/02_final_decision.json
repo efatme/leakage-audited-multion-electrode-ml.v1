@@ -1,0 +1,11 @@
+{
+  "final_decision": "FULL_GO_TO_notebook_04",
+  "n_integrity_fail": 0,
+  "n_integrity_warning": 0,
+  "missing_required_outputs": [],
+  "patch_status": "P2/P3 leakage rules tightened",
+  "no_ml_training_performed": true,
+  "no_ranking_performed": true,
+  "no_cde_matching_performed": true,
+  "no_criticality_filtering_performed": true
+}

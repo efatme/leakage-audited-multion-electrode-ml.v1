@@ -1,0 +1,13 @@
+mask,n_pass,n_total,pass_pct
+mask_raw_all_records,3354,3354,100.0
+mask_voltage_0_to_6,3226,3354,96.18366129994037
+mask_capacity_grav_positive_le_1000,3351,3354,99.91055456171735
+mask_capacity_vol_positive_le_10000,3354,3354,100.0
+mask_energy_grav_nonnegative_le_6000,3259,3354,97.16756112104949
+mask_energy_vol_nonnegative_le_50000,3259,3354,97.16756112104949
+mask_volume_change_0_to_2,3319,3354,98.95646988670245
+mask_stability_charge_0_to_2,3325,3354,99.13536076326774
+mask_stability_discharge_0_to_2,3329,3354,99.2546213476446
+mask_stability_worst_0_to_2,3325,3354,99.13536076326774
+mask_physics_plausible_primary,3225,3354,96.15384615384616
+mask_physics_plausible_all_targets,3201,3354,95.43828264758497

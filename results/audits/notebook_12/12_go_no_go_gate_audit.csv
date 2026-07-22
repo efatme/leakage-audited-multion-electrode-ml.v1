@@ -1,0 +1,10 @@
+gate,pass
+notebook14B_full_go_verified,True
+notebook14B_manifest_verified,True
+pilot_exact_structures_loaded,True
+reaction_balance_passed,True
+na_reference_created,True
+all_required_job_directories_created,True
+expected_result_roles_complete,True
+potcar_specs_present,True
+no_licensed_potcar_present,True

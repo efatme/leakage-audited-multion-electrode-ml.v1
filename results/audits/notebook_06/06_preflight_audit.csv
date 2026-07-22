@@ -1,0 +1,6 @@
+check,pass
+notebook10_decision_accepted,True
+notebook10b_decision_accepted,True
+notebook10_no_error_rows,True
+notebook10b_split_audit_pass,True
+notebook10b_record_manifest_nonempty,True

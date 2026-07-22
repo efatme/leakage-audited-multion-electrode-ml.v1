@@ -1,0 +1,14 @@
+{
+  "final_decision": "FULL_GO_TO_notebook_08",
+  "n_config_ok": 75,
+  "n_config_partial": 0,
+  "n_config_error": 0,
+  "n_fold_ok": 1470,
+  "n_fold_error": 0,
+  "n_prediction_rows": 222690,
+  "missing_outputs": [],
+  "no_candidate_ranking": true,
+  "no_cde_matching": true,
+  "no_criticality_filtering": true,
+  "no_manuscript_writing": true
+}

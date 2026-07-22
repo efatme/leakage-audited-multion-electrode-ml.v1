@@ -1,0 +1,20 @@
+name: cmt-insertion-electrode-workflow
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - jupyterlab
+  - nbformat
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - networkx
+  - joblib
+  - pyyaml
+  - pymatgen
+  - pip
+  - pip:
+      - mp-api
+      - xgboost

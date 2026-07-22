@@ -1,0 +1,3 @@
+set	charged_mesh	discharged_mesh	na_metal_mesh	reaction_energy_eV_per_formula	average_voltage_V	delta_voltage_from_selected_V	abs_delta_voltage_from_selected_V
+selected_candidate	5x6x4	3x3x2	12x12x12	-6.406841944583936	3.203420972291968		
+denser_reference	6x7x4	4x4x3	16x16x16	-6.406123257859203	3.2030616289296017	-0.00035934336236653763	0.00035934336236653763

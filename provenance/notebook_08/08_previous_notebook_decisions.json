@@ -1,0 +1,68 @@
+{
+  "notebook_08": {
+    "final_decision": "FULL_GO_TO_notebook_02",
+    "has_critical_fail": false,
+    "has_any_fail": false,
+    "has_any_conditional": false,
+    "n_total_records": 3354,
+    "records_by_ion": {
+      "Li": 2774,
+      "Na": 416,
+      "K": 164
+    },
+    "n_framework_groups": 2040,
+    "n_chemsys_groups": 769,
+    "minimum_structure_route_coverage_pct_across_ions": 100.0,
+    "summary_coverage_pct": 99.81511914543961
+  },
+  "notebook_09": {
+    "final_decision": "FULL_GO_TO_notebook_04",
+    "n_integrity_fail": 0,
+    "n_integrity_warning": 0,
+    "missing_required_outputs": [],
+    "patch_status": "P2/P3 leakage rules tightened",
+    "no_ml_training_performed": true,
+    "no_ranking_performed": true,
+    "no_cde_matching_performed": true,
+    "no_criticality_filtering_performed": true
+  },
+  "notebook_10": {
+    "final_decision": "FULL_GO_TO_notebook_07",
+    "run_timestamp_utc": "2026-07-04T06:34:22Z",
+    "n_ok_rows": 7350,
+    "n_error_rows": 0,
+    "missing_outputs": [],
+    "observed_split_names": [
+      "framework_groupkfold",
+      "leave_chemical_system_out",
+      "leave_family_out",
+      "leave_working_ion_out",
+      "random_split"
+    ],
+    "missing_split_names": [],
+    "n_jobs_tree_models": 18,
+    "extended_model_set": false,
+    "tree_n_estimators": 300,
+    "outer_loop_parallelism": false,
+    "warning_spam_suppression": "enabled for sklearn.utils.parallel.delayed UserWarning",
+    "no_uncertainty_ad_analysis_performed": true,
+    "no_candidate_ranking_performed": true,
+    "no_cde_matching_performed": true,
+    "no_criticality_filtering_performed": true,
+    "no_manuscript_writing_performed": true
+  },
+  "notebook_11": {
+    "final_decision": "FULL_GO_TO_notebook_08",
+    "n_config_ok": 75,
+    "n_config_partial": 0,
+    "n_config_error": 0,
+    "n_fold_ok": 1470,
+    "n_fold_error": 0,
+    "n_prediction_rows": 222690,
+    "missing_outputs": [],
+    "no_candidate_ranking": true,
+    "no_cde_matching": true,
+    "no_criticality_filtering": true,
+    "no_manuscript_writing": true
+  }
+}

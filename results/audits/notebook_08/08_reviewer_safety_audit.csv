@@ -1,0 +1,14 @@
+check,status,details
+forbidden_pattern_cde,PASS,none
+forbidden_pattern_chemdataextractor,PASS,none
+forbidden_pattern_criticality,PASS,none
+forbidden_pattern_critical,PASS,none
+forbidden_pattern_usgs,PASS,none
+forbidden_pattern_crma,PASS,none
+forbidden_pattern_bgs,PASS,none
+forbidden_pattern_iea,PASS,none
+forbidden_pattern_topsis,PASS,none
+manual_review_pool_at_least_20,PASS,n_manual_review_pool=180
+prediction_coverage_complete_primary_at_least_70pct,PASS,complete_primary_prediction_pct=94.71
+top20_overclaim_flag_rate_reported,PASS,top20_do_not_overclaim_flag_pct=0.00
+case_screen_pass_at_least_30,PASS,n_case_screen_pass=180

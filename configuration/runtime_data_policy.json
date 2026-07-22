@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "runtime_generated_not_bundled": {
+    "raw_na_insertion_electrodes": {
+      "default_path": "data/raw/notebook_01/mp_Na_insertion_electrodes_raw.json",
+      "environment_variable": "CMT_RAW_NA_JSON",
+      "required_for_repository_inspection": false,
+      "required_for_fresh_raw_acquisition": true,
+      "processed_csv_substitution_allowed": false
+    }
+  }
+}

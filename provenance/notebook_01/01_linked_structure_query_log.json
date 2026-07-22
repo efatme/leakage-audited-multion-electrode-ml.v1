@@ -1,0 +1,982 @@
+[
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 97,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 98,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 100,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 100,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 99,
+    "error": null
+  },
+  {
+    "chunk_size": 36,
+    "kwargs_keys": [
+      "material_ids",
+      "fields"
+    ],
+    "success": true,
+    "n_docs": 36,
+    "error": null
+  }
+]

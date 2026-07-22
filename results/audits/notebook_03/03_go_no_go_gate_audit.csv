@@ -1,0 +1,11 @@
+gate,passed
+notebook09_full_go,True
+notebook09_integrity_all_pass,True
+all_target_feature_keys_present,True
+compiler_class_agreement_complete,True
+zero_false_safe_features,True
+compiler_protocol_agreement_complete,True
+protocol_count_reconstruction_complete,True
+critical_dependency_assertions_pass,True
+reusable_module_written,True
+dependency_graph_outputs_written,True

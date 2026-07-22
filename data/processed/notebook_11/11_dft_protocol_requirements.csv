@@ -1,0 +1,11 @@
+item,required_value,status,notes
+DFT code,VASP or rigorously documented equivalent,REQUIRES_USER_RESOURCE_CONFIRMATION,Templates are VASP-compatible; no calculation has been run.
+exchange_correlation,PBE with Materials-Project-compatible corrections where applicable,VERIFY_BEFORE_PRODUCTION,Use the same functional and correction policy for all endpoint and Na-reference calculations.
+Hubbard_U,Inspect generated INCAR/POTCAR.spec and Notebook 01 raw metadata,VERIFY_PER_COMPOUND,Do not mix incompatible U settings across charged/discharged endpoints.
+spin,ISPIN=2 with chemistry-appropriate initial magnetic moments,VERIFY_PER_COMPOUND,Test alternative magnetic initializations when convergence is unstable.
+plane_wave_cutoff,ENCUT=520 eV minimum template value,PILOT_CONVERGENCE_REQUIRED,Confirm against the selected PAW datasets.
+k_point_sampling,MPRelaxSet/MPStaticSet generated mesh,PILOT_CONVERGENCE_REQUIRED,Confirm total-energy and voltage convergence.
+relaxation,"EDIFF=1e-5, EDIFFG=-0.03, ISIF=3, NSW=120",TEMPLATE_ONLY,Extend NSW or tighten thresholds when necessary.
+static_stage,Use relaxed CONTCAR as static POSCAR,MANDATORY,The notebook renames the initial static POSCAR to prevent accidental use.
+sodium_reference,metallic Na calculated with exactly compatible settings,MANDATORY,Required for average-voltage calculation.
+licensed_files,Never commit POTCAR files,MANDATORY,Only POTCAR.spec files may enter the private execution package or public release.

@@ -1,0 +1,21 @@
+{
+  "candidate_id": "Na_candidate_06",
+  "host_reduced_formula": "CoPCO7",
+  "charged_cell_formula": "NaCoPCO7",
+  "discharged_cell_formula": "Na3CoPCO7",
+  "charged_cell_host_formula_units": 2.0,
+  "discharged_cell_host_formula_units": 4.0,
+  "charged_na_per_host_formula_unit": 1.0,
+  "discharged_na_per_host_formula_unit": 3.0,
+  "delta_na_per_host_formula_unit": 2.0,
+  "charged_energy_cell_normalization_factor": 0.5,
+  "discharged_energy_cell_normalization_factor": 0.25,
+  "charged_volume_per_host_formula_unit": 147.6900360953409,
+  "discharged_volume_per_host_formula_unit": 157.5582564075311,
+  "signed_volume_change_fraction_from_exact_input_structures": 0.06681710271788274,
+  "absolute_volume_change_fraction_from_exact_input_structures": 0.06681710271788274,
+  "database_max_delta_volume": 0.066817102717882,
+  "balanced_reaction": "charged_host + 2 Na(metal) -> discharged_host",
+  "voltage_formula": "V = -[(E_discharged_cell / n_host_fu_discharged) - (E_charged_cell / n_host_fu_charged) - delta_Na * E_Na_atom] / delta_Na",
+  "energy_unit_policy": "Use final static energies in eV; the resulting eV per transferred Na is numerically equal to volts."
+}

@@ -1,0 +1,15 @@
+{
+  "notebook": "02_literature_analogue_validation.ipynb",
+  "run_timestamp_utc": "2026-07-10T18:21:48Z",
+  "final_decision": "FULL_GO_MANUAL_REVIEW_READY__CSV",
+  "input_source": "notebook_01_outputs",
+  "n_candidates": 30,
+  "n_recommended_manual_queries": 252,
+  "n_archived_unfriendly_formula_rows": 54,
+  "missing_outputs": [],
+  "reviewer_safety_status_counts": {
+    "PASS": 5
+  },
+  "main_manual_csv_to_fill": "${CMT_REPOSITORY_ROOT}\\notebook_09\\processed\\09_manual_literature_annotations__WITH_CARRYOVER.csv",
+  "blank_manual_csv": "${CMT_REPOSITORY_ROOT}\\notebook_09\\processed\\09_manual_literature_annotations_BLANK_.csv"
+}

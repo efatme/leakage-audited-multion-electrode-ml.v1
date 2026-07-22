@@ -1,0 +1,4 @@
+calculation_role,relative_directory,required_files,energy_normalization
+charged_static,Na_candidate_06/charged/02_static_template,vasprun.xml|OUTCAR|OSZICAR|CONTCAR|INCAR|KPOINTS|POTCAR.spec,divide cell energy by 2
+discharged_static,Na_candidate_06/discharged/02_static_template,vasprun.xml|OUTCAR|OSZICAR|CONTCAR|INCAR|KPOINTS|POTCAR.spec,divide cell energy by 4
+na_reference_static,Na_metal_reference/02_static_template,vasprun.xml|OUTCAR|OSZICAR|CONTCAR|INCAR|KPOINTS|POTCAR.spec,divide cell energy by 2

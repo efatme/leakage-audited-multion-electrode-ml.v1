@@ -1,0 +1,24 @@
+gate_item,status,observed_value,minimum_required_for_pass,minimum_required_for_conditional,critical_for_path_a,interpretation,action,final_notebook08_decision
+Li_record_count,PASS,2774,500,250,True,Li insertion-electrode record count.,Proceed if PASS; weaken benchmark claims if CONDITIONAL_PASS; redesign if FAIL.,FULL_GO_TO_notebook_02
+Na_record_count,PASS,416,300,200,True,Na insertion-electrode record count.,Proceed if PASS; weaken benchmark claims if CONDITIONAL_PASS; redesign if FAIL.,FULL_GO_TO_notebook_02
+K_record_count,PASS,164,75,50,True,K insertion-electrode record count.,Proceed if PASS; weaken benchmark claims if CONDITIONAL_PASS; redesign if FAIL.,FULL_GO_TO_notebook_02
+average_voltage_minimum_coverage_across_Li_Na_K,PASS,100.0,90.0,75.0,True,"Minimum average_voltage completeness across Li, Na, K.",Main ML benchmark target only if PASS or CONDITIONAL_PASS.,FULL_GO_TO_notebook_02
+capacity_grav_minimum_coverage_across_Li_Na_K,PASS,100.0,90.0,75.0,True,"Minimum capacity_grav completeness across Li, Na, K.",Main ML benchmark target only if PASS or CONDITIONAL_PASS.,FULL_GO_TO_notebook_02
+energy_grav_minimum_coverage_across_Li_Na_K,PASS,100.0,90.0,75.0,True,"Minimum energy_grav completeness across Li, Na, K.",Main ML benchmark target only if PASS or CONDITIONAL_PASS.,FULL_GO_TO_notebook_02
+capacity_vol_minimum_coverage_across_Li_Na_K,PASS,100.0,70.0,50.0,False,"Minimum capacity_vol completeness across Li, Na, K.",Use as secondary target only if sufficiently complete.,FULL_GO_TO_notebook_02
+energy_vol_minimum_coverage_across_Li_Na_K,PASS,100.0,70.0,50.0,False,"Minimum energy_vol completeness across Li, Na, K.",Use as secondary target only if sufficiently complete.,FULL_GO_TO_notebook_02
+max_delta_volume_minimum_coverage_across_Li_Na_K,PASS,100.0,70.0,50.0,False,"Minimum max_delta_volume completeness across Li, Na, K.",Use as secondary target only if sufficiently complete.,FULL_GO_TO_notebook_02
+stability_charge_minimum_coverage_across_Li_Na_K,PASS,100.0,70.0,50.0,False,"Minimum stability_charge completeness across Li, Na, K.",Use as secondary target only if sufficiently complete.,FULL_GO_TO_notebook_02
+stability_discharge_minimum_coverage_across_Li_Na_K,PASS,100.0,70.0,50.0,False,"Minimum stability_discharge completeness across Li, Na, K.",Use as secondary target only if sufficiently complete.,FULL_GO_TO_notebook_02
+stability_worst_minimum_coverage_across_Li_Na_K,PASS,100.0,70.0,50.0,False,"Minimum stability_worst completeness across Li, Na, K.",Use as secondary target only if sufficiently complete.,FULL_GO_TO_notebook_02
+total_records,PASS,3354,875,500,True,Total Li-Na-K records.,Proceed if PASS; inspect split design if CONDITIONAL_PASS; redesign if FAIL.,FULL_GO_TO_notebook_02
+framework_uid_groups,PASS,2040,300,150,True,Framework groups for grouped validation.,Proceed if PASS; inspect split design if CONDITIONAL_PASS; redesign if FAIL.,FULL_GO_TO_notebook_02
+framework_formula_groups,PASS,1727,200,100,False,Reduced framework-formula groups.,Proceed if PASS; inspect split design if CONDITIONAL_PASS; redesign if FAIL.,FULL_GO_TO_notebook_02
+chemical_system_groups,PASS,769,150,75,True,Chemical systems for leave-chemical-system-out feasibility.,Proceed if PASS; inspect split design if CONDITIONAL_PASS; redesign if FAIL.,FULL_GO_TO_notebook_02
+host_chemsys_no_working_ion_groups,PASS,769,100,50,False,Host chemical systems excluding working ion.,Proceed if PASS; inspect split design if CONDITIONAL_PASS; redesign if FAIL.,FULL_GO_TO_notebook_02
+coarse_family_groups,PASS,10,5,3,False,Coarse family diversity for leave-family-out feasibility.,Proceed if PASS; inspect split design if CONDITIONAL_PASS; redesign if FAIL.,FULL_GO_TO_notebook_02
+exact_duplicate_burden_pct,PASS,0.0,<=10,<=30,False,Exact electrode UID duplicate burden.,Flag duplicates; do not delete aggressively before split-design audit.,FULL_GO_TO_notebook_02
+linked_material_summary_coverage_pct,PASS,99.81511914543961,80.0,50.0,False,Coverage of linked MP material summaries.,Needed for later structure/DFT provenance and P3 support.,FULL_GO_TO_notebook_02
+minimum_structure_route_coverage_pct_across_ions,PASS,100.0,70.0,40.0,False,Minimum per-ion availability of raw or linked structure route.,P2 composition+structure protocol only defensible if adequate.,FULL_GO_TO_notebook_02
+cross_ion_host_chemsys_overlap,PASS,130,20,5,False,Maximum pairwise overlap of host chemical systems excluding working ion.,"Low overlap means leave-working-ion-out is a severe chemical-domain shift, not a symmetric interpolation test.",FULL_GO_TO_notebook_02
+leave_working_ion_out_feasibility,PASS,ion_counts_ok=True; main_targets_ok=True,all ions >= conditional count and main targets >= conditional coverage,not_applicable,True,Whether leave-working-ion-out validation is statistically meaningful.,"If FAIL, redesign Path A before Notebook 02.",FULL_GO_TO_notebook_02

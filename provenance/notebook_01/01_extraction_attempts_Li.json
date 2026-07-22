@@ -1,0 +1,23 @@
+{
+  "ion": "Li",
+  "mode": "direct_endpoint_query",
+  "field_strategy": "all_discovered_fields",
+  "ion_strategy": "working_ion_string",
+  "n_docs": 2774,
+  "n_inferred": 2774,
+  "n_inferred_matching_ion": 2774,
+  "attempt_log": [
+    {
+      "ion": "Li",
+      "field_strategy": "all_discovered_fields",
+      "ion_strategy": "working_ion_string",
+      "kwargs_keys": [
+        "fields",
+        "working_ion"
+      ],
+      "success": true,
+      "n_docs": 2774,
+      "error": null
+    }
+  ]
+}

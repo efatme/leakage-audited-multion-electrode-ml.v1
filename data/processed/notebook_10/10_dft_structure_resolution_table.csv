@@ -1,0 +1,13 @@
+manual_candidate_id,selection_role,state,target_formula,resolved_material_id,resolved_formula_pretty,resolved_energy_above_hull,resolution_status,resolution_note
+Na_candidate_06,primary_dft_spotcheck,charged,NaCoPCO7,mp-1101670,NaCoPCO7,0.06076899795454693,resolved,
+Na_candidate_06,primary_dft_spotcheck,discharged,Na3CoPCO7,mp-770948,Na3CoPCO7,0.0,resolved,
+Na_candidate_10,primary_dft_spotcheck,charged,NaFePCO7,mp-769633,NaFePCO7,0.04468483602272588,resolved,
+Na_candidate_10,primary_dft_spotcheck,discharged,Na3FePCO7,mp-22135,Na3FePCO7,0.0,resolved,
+Na_candidate_11,primary_dft_spotcheck,charged,NaMnPCO7,mp-761016,NaMnPCO7,0.0020421284090978986,resolved,
+Na_candidate_11,primary_dft_spotcheck,discharged,Na3MnPCO7,mp-19261,Na3MnPCO7,0.0,resolved,
+Na_candidate_15,primary_dft_spotcheck,charged,Cr2(PO4)3,mp-26610,Cr2(PO4)3,0.06156150720588549,resolved,
+Na_candidate_15,primary_dft_spotcheck,discharged,Na3Cr2(PO4)3,mp-1221294,Na3Cr2(PO4)3,0.0,resolved,
+Na_candidate_16,primary_dft_spotcheck,charged,MnP2O7,mp-771660,MnP2O7,0.0,resolved,
+Na_candidate_16,primary_dft_spotcheck,discharged,Na2MnP2O7,mp-1198166,Na2MnP2O7,0.0036536136111147144,resolved,
+Na_candidate_02,optional_control_not_primary,charged,CoO2,mp-1400906,CoO2,0.0,resolved,
+Na_candidate_02,optional_control_not_primary,discharged,NaCoO2,mp-18921,NaCoO2,0.0,resolved,

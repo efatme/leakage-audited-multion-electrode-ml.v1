@@ -1,0 +1,48 @@
+{
+  "notebook": "02_leakage_taxonomy_and_descriptor_protocols.ipynb",
+  "run_timestamp_utc": "2026-07-03T22:40:53Z",
+  "input_notebook_08_dir": "${CMT_REPOSITORY_ROOT}\\notebook_01",
+  "output_notebook_09_dir": "${CMT_REPOSITORY_ROOT}\\notebook_02",
+  "master_feature_table": "${CMT_REPOSITORY_ROOT}\\notebook_02\\processed\\02_master_feature_table.csv",
+  "metadata_and_targets_table": "${CMT_REPOSITORY_ROOT}\\notebook_02\\processed\\02_master_metadata_and_targets.csv",
+  "target_plausibility_masks": "${CMT_REPOSITORY_ROOT}\\notebook_02\\audit\\02_target_plausibility_masks.csv",
+  "feature_taxonomy_master": "${CMT_REPOSITORY_ROOT}\\notebook_02\\audit\\02_feature_leakage_taxonomy_master.csv",
+  "target_specific_leakage_matrix": "${CMT_REPOSITORY_ROOT}\\notebook_02\\audit\\02_target_specific_leakage_matrix.csv",
+  "protocol_feature_counts": "${CMT_REPOSITORY_ROOT}\\notebook_02\\audit\\02_protocol_feature_counts_by_target.csv",
+  "protocol_integrity_audit": "${CMT_REPOSITORY_ROOT}\\notebook_02\\audit\\02_protocol_integrity_audit.csv",
+  "protocol_feature_list_dir": "${CMT_REPOSITORY_ROOT}\\notebook_02\\processed\\protocol_feature_lists",
+  "targets": [
+    "average_voltage",
+    "capacity_grav",
+    "capacity_vol",
+    "energy_grav",
+    "energy_vol",
+    "max_delta_volume",
+    "stability_charge",
+    "stability_discharge",
+    "stability_worst"
+  ],
+  "primary_benchmark_targets": [
+    "average_voltage",
+    "capacity_grav",
+    "energy_grav",
+    "max_delta_volume",
+    "stability_worst"
+  ],
+  "protocols": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ],
+  "patch_notes": [
+    "P2 excludes post-DFT energy/electronic/provenance features.",
+    "P3 applies explicit target-specific bans for voltage/energy, stability, and volume-change targets.",
+    "Protocol integrity audit includes explicit P2/P3 forbidden-feature checks."
+  ],
+  "no_ml_training_performed": true,
+  "no_ranking_performed": true,
+  "no_cde_matching_performed": true,
+  "no_criticality_filtering_performed": true
+}

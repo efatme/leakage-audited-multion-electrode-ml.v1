@@ -1,0 +1,2 @@
+job	state	mesh_level	kmesh	return_code	converged	job_done	fatal_error	energy_Ry	final_scf_accuracy_Ry	status
+05_kpoints/charged/k_6x7x4	charged	final_reference	6x7x4	0	1	1	0	-1436.42900433	4.9E-10	RESUMED_EXISTING_PASS

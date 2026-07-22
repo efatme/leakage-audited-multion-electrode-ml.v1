@@ -1,0 +1,55 @@
+manual_candidate_id,shortlist_priority_rank,formula,reason_not_,suggested_replacements
+Na_candidate_01,1,Na0-2VF5,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-2VF5
+Na_candidate_02,2,Na0-1CoO2,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-1CoO2
+Na_candidate_03,3,Na0-1CoO2,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-1CoO2
+Na_candidate_04,4,Na0-4Fe2(PO4)3,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-4Fe2(PO4)3
+Na_candidate_05,5,Na0-1MnF3,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-1MnF3
+Na_candidate_06,6,Na1-3CoPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1-3CoPCO7
+Na_candidate_06,6,Na3CoPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na3CoPO4CO3 | Na3Co(CO3)(PO4) | Na3Co(PO4)(CO3) | Na3CoPCO7
+Na_candidate_06,6,CoPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,CoPO4CO3 | Co(CO3)(PO4) | Co(PO4)(CO3) | CoPCO7
+Na_candidate_07,7,Na0-2CoP2O7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-2CoP2O7
+Na_candidate_08,8,Na0-2MnPO4F,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-2MnPO4F
+Na_candidate_09,9,Na0-2FeCSO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-2FeCSO7
+Na_candidate_09,9,Na2FeCSO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na2FeCO3SO4 | Na2Fe(CO3)(SO4) | Na2Fe(SO4)(CO3) | Na2FeCSO7
+Na_candidate_09,9,FeCSO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,FeCO3SO4 | Fe(CO3)(SO4) | Fe(SO4)(CO3) | FeCSO7
+Na_candidate_10,10,Na1-3FePCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1-3FePCO7
+Na_candidate_10,10,Na3FePCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na3FePO4CO3 | Na3Fe(CO3)(PO4) | Na3Fe(PO4)(CO3) | Na3FePCO7
+Na_candidate_10,10,FePCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,FePO4CO3 | Fe(CO3)(PO4) | Fe(PO4)(CO3) | FePCO7
+Na_candidate_11,11,Na1-3MnPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1-3MnPCO7
+Na_candidate_11,11,Na3MnPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na3MnPO4CO3 | Na3Mn(CO3)(PO4) | Na3Mn(PO4)(CO3) | Na3MnPCO7
+Na_candidate_11,11,MnPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,MnPO4CO3 | Mn(CO3)(PO4) | Mn(PO4)(CO3) | MnPCO7
+Na_candidate_12,12,Na0-2MnH4(SO5)2,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-2MnH4(SO5)2
+Na_candidate_13,13,Na0-1CoPO4,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-1CoPO4
+Na_candidate_14,14,Na1.5-3NiPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1.5-3NiPCO7
+Na_candidate_14,14,Na3NiPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na3NiPO4CO3 | Na3Ni(CO3)(PO4) | Na3Ni(PO4)(CO3) | Na3NiPCO7
+Na_candidate_14,14,NiPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,NiPO4CO3 | Ni(CO3)(PO4) | Ni(PO4)(CO3) | NiPCO7
+Na_candidate_15,15,Na0-3Cr2(PO4)3,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-3Cr2(PO4)3
+Na_candidate_16,16,Na0-2MnP2O7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-2MnP2O7
+Na_candidate_17,17,Na1-3CoAsCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1-3CoAsCO7
+Na_candidate_17,17,Na3CoAsCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na3CoAsO4CO3 | Na3Co(CO3)(AsO4) | Na3Co(AsO4)(CO3) | Na3CoAsCO7
+Na_candidate_17,17,CoAsCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,CoAsO4CO3 | Co(CO3)(AsO4) | Co(AsO4)(CO3) | CoAsCO7
+Na_candidate_18,18,Na2-6Fe2C4SO16,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na2-6Fe2C4SO16
+Na_candidate_19,19,Na1-3FeAsCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1-3FeAsCO7
+Na_candidate_19,19,Na3FeAsCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na3FeAsO4CO3 | Na3Fe(CO3)(AsO4) | Na3Fe(AsO4)(CO3) | Na3FeAsCO7
+Na_candidate_19,19,FeAsCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,FeAsO4CO3 | Fe(CO3)(AsO4) | Fe(AsO4)(CO3) | FeAsCO7
+Na_candidate_20,20,Na1-3CrPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1-3CrPCO7
+Na_candidate_20,20,Na3CrPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na3CrPO4CO3 | Na3Cr(CO3)(PO4) | Na3Cr(PO4)(CO3) | Na3CrPCO7
+Na_candidate_20,20,CrPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,CrPO4CO3 | Cr(CO3)(PO4) | Cr(PO4)(CO3) | CrPCO7
+Na_candidate_21,21,Na0-6Mn3(PO4)4,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-6Mn3(PO4)4
+Na_candidate_22,22,Na0-1MnO2,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-1MnO2
+Na_candidate_23,23,Na0-1VPO5,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-1VPO5
+Na_candidate_24,24,Na0-1VF4,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-1VF4
+Na_candidate_25,25,Na1-3MnAsCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1-3MnAsCO7
+Na_candidate_25,25,Na3MnAsCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na3MnAsO4CO3 | Na3Mn(CO3)(AsO4) | Na3Mn(AsO4)(CO3) | Na3MnAsCO7
+Na_candidate_25,25,MnAsCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,MnAsO4CO3 | Mn(CO3)(AsO4) | Mn(AsO4)(CO3) | MnAsCO7
+Na_candidate_26,26,Na1-2.5MnPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1-2.5MnPCO7
+Na_candidate_26,26,Na5Mn2P2(CO7)2,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na5Mn2(PO4)2(CO3)2 | Na5Mn2(CO3)2(PO4)2 | Na5Mn2P2(CO7)2
+Na_candidate_26,26,MnPCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,MnPO4CO3 | Mn(CO3)(PO4) | Mn(PO4)(CO3) | MnPCO7
+Na_candidate_27,27,Na0-2MnCSO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-2MnCSO7
+Na_candidate_27,27,Na2MnCSO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na2MnCO3SO4 | Na2Mn(CO3)(SO4) | Na2Mn(SO4)(CO3) | Na2MnCSO7
+Na_candidate_27,27,MnCSO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,MnCO3SO4 | Mn(CO3)(SO4) | Mn(SO4)(CO3) | MnCSO7
+Na_candidate_28,28,Na1-3VSiCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na1-3VSiCO7
+Na_candidate_28,28,Na3VSiCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na3VSiO4CO3 | Na3V(CO3)(SiO4) | Na3V(SiO4)(CO3) | Na3VSiCO7
+Na_candidate_28,28,VSiCO7,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,VSiO4CO3 | V(CO3)(SiO4) | V(SiO4)(CO3) | VSiCO7
+Na_candidate_29,29,Na0-1MnO2,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-1MnO2
+Na_candidate_30,30,Na0-3.5Cr2(PO4)3,MP battery-window notation or condensed polyoxo formula; use grouped/expanded formula variants instead.,Na0-3.5Cr2(PO4)3

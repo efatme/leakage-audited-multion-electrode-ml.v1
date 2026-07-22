@@ -1,0 +1,28 @@
+resource_confirmed: false
+
+backend: VASP
+scheduler: LOCAL_WSL
+
+account: LOCAL
+partition: LOCAL
+
+nodes: 1
+ntasks: 24
+cpus_per_task: 1
+walltime: "72:00:00"
+
+module_commands:
+  - "ulimit -s unlimited"
+  - "export OMP_NUM_THREADS=1"
+  - "export MKL_NUM_THREADS=1"
+  - "export OPENBLAS_NUM_THREADS=1"
+  - "export OMP_STACKSIZE=512m"
+
+vasp_command: "mpirun -np 24 ${USER_HOME}/vasp/vasp.6.x.x/bin/vasp_std"
+
+vasp_version: "UNCONFIRMED"
+pseudopotential_library: "VASP PAW PBE"
+pseudopotential_version: "UNCONFIRMED"
+potcar_generation_method: "UNCONFIRMED_PRIVATE_LICENSED_POTCAR_METHOD"
+
+notification_email: ""

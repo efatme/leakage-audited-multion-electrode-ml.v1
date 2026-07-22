@@ -1,0 +1,2 @@
+rank_mc_samples,n_sodium_records,n_top10_probability_gt_0,n_top20_probability_gt_0,n_top30_probability_gt_0,mean_rank_iqr,median_rank_iqr
+500,416,36,60,85,27.21814903846154,28.0

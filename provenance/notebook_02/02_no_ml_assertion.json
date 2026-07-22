@@ -1,0 +1,16 @@
+{
+  "ml_training_performed": false,
+  "model_fitting_performed": false,
+  "hyperparameter_tuning_performed": false,
+  "ranking_performed": false,
+  "cde_matching_performed": false,
+  "criticality_filtering_performed": false,
+  "manuscript_writing_performed": false,
+  "allowed_operations": [
+    "target plausibility mask creation",
+    "feature table construction",
+    "feature leakage taxonomy",
+    "target-specific protocol feature-list generation",
+    "audit and manifest writing"
+  ]
+}

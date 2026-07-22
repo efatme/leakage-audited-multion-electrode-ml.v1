@@ -1,0 +1,13 @@
+field,unit,required
+job_id,,True
+state,,True
+method,,True
+converged_electronic,boolean,True
+job_done,boolean,True
+total_energy_Ry,Ry/cell,True
+total_energy_eV,eV/cell,True
+total_magnetization,Bohr magneton/cell,False
+absolute_magnetization,Bohr magneton/cell,False
+final_volume_A3,A^3/cell,False
+wall_seconds,s,False
+error_flag,,True

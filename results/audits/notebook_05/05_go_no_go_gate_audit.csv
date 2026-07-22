@@ -1,0 +1,10 @@
+gate,pass
+input_decisions_accepted,True
+compiler_false_safe_zero,True
+target_columns_excluded_from_features,True
+notebook10_split_design_compatible,True
+all_expected_configurations_completed,True
+all_method_variants_present,True
+all_linked_targets_present,True
+preprocessing_train_only,True
+physics_constraint_reduces_a_consistency_error,True

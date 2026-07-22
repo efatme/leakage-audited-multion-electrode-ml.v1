@@ -1,0 +1,15 @@
+check,pass,value
+config_backend,True,"""VASP"""
+config_scheduler,True,"""LOCAL_WSL"""
+config_account,True,"""LOCAL"""
+config_partition,True,"""LOCAL"""
+config_nodes,True,1
+config_ntasks,True,24
+config_walltime,True,"""72:00:00"""
+config_module_commands,True,"[""ulimit -s unlimited"", ""export OMP_NUM_THREADS=1"", ""export MKL_NUM_THREADS=1"", ""export OPENBLAS_NUM_THREADS=1"", ""export OMP_STACKSIZE=512m""]"
+config_vasp_command,True,"""mpirun -np 24 ${USER_HOME}/vasp/vasp.6.x.x/bin/vasp_std"""
+config_vasp_version,True,"""UNCONFIRMED"""
+config_pseudopotential_library,True,"""VASP PAW PBE"""
+config_pseudopotential_version,True,"""UNCONFIRMED"""
+config_potcar_generation_method,True,"""UNCONFIRMED_PRIVATE_LICENSED_POTCAR_METHOD"""
+resource_confirmed,False,False

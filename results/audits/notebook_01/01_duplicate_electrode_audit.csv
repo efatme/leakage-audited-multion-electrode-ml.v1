@@ -1,0 +1,6 @@
+criterion,columns,status,n_usable_records,n_records_in_duplicate_groups,n_duplicate_groups,duplicate_record_pct
+exact_electrode_uid,electrode_uid,computed,3354,0,0,0.0
+same_ion_framework_charge_discharge_formula,working_ion|framework_formula|formula_charge|formula_discharge,computed,3354,1226,367,36.553369111508644
+same_ion_charge_discharge_ids,working_ion|id_charge|id_discharge,computed,3354,0,0,0.0
+same_framework_uid,framework_uid,computed,3354,1735,421,51.72927847346452
+same_ion_battery_formula_framework,working_ion|battery_formula|framework_formula,computed,3354,1226,367,36.553369111508644

@@ -1,0 +1,17 @@
+{
+  "final_decision": "FULL_GO_TO_PILOT_DFT",
+  "run_timestamp_utc": "2026-07-11T19:45:18.056646+00:00",
+  "primary_candidate_count": 5,
+  "complete_primary_pairs": 5,
+  "ordered_primary_pairs": 5,
+  "manageable_primary_pairs": 5,
+  "vasp_primary_pairs_written": 5,
+  "optional_control": [
+    "Na_candidate_02"
+  ],
+  "exact_structure_source": "Notebook 01 raw Na insertion-electrode records",
+  "formula_fallback_used": false,
+  "materials_project_api_used": false,
+  "dft_calculations_run": false,
+  "next_action": "Run one charged/discharged pilot pair plus a compatible metallic-Na reference."
+}

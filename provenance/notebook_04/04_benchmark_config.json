@@ -1,0 +1,42 @@
+{
+  "targets": [
+    "average_voltage",
+    "capacity_grav",
+    "energy_grav",
+    "max_delta_volume",
+    "stability_worst"
+  ],
+  "protocols": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4"
+  ],
+  "target_direction": {
+    "average_voltage": "maximize",
+    "capacity_grav": "maximize",
+    "energy_grav": "maximize",
+    "max_delta_volume": "minimize",
+    "stability_worst": "minimize"
+  },
+  "use_common_plausibility_mask": true,
+  "common_mask_col": "mask_physics_plausible_all_targets",
+  "validation_splits": [
+    "random_split",
+    "framework_groupkfold",
+    "leave_family_out",
+    "leave_chemical_system_out",
+    "leave_working_ion_out"
+  ],
+  "random_n_splits": 5,
+  "group_kfold_splits": 5,
+  "leave_chemsys_max_groups": 75,
+  "min_test_records_for_leaveout": 5,
+  "n_jobs_tree_models": 18,
+  "extended_model_set": false,
+  "tree_n_estimators": 300,
+  "random_state": 42,
+  "outer_loop_parallelism": false,
+  "warning_spam_suppression": "enabled"
+}

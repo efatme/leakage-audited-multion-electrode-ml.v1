@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this software repository."
+title: "Leakage-audited multi-ion insertion-electrode learning workflow"
+type: software
+authors:
+  - family-names: "Efat"
+    given-names: "Md. Efatuzzaman"
+    email: "efatuzzaman@gmail.com"
+  - family-names: "Islam"
+    given-names: "Md. Saiful"
+license: BSD-3-Clause
+version: 1.0.0
+date-released: 2026-07-22

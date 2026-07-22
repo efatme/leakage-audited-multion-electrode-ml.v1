@@ -1,0 +1,20 @@
+{
+  "manual_candidate_id": "Na_candidate_16",
+  "selection_role": "primary_dft_spotcheck",
+  "battery_formula": "Na0-2MnP2O7",
+  "formula_charge": "MnP2O7",
+  "formula_discharge": "Na2MnP2O7",
+  "framework_formula": "MnP2O7",
+  "coarse_family": "polyanion_phosphate_like",
+  "average_voltage": 4.05877872905172,
+  "capacity_grav": 195.018501417946,
+  "energy_grav": 791.536945326702,
+  "max_delta_volume": 0.123101178662976,
+  "stability_worst": 0.072622637499999,
+  "final_triage_score": 0.6048938521296092,
+  "best_annotation_status": "exact_or_near_exact_formula",
+  "best_analogue_level": "exact_formula",
+  "best_citation_title": "Anomalous manganese activation of a pyrophosphate cathode in sodium ion batteries: a combined experimental and theoretical study",
+  "selection_reason": "rank=16, triage=0.605, lit=exact_or_near_exact_formula:exact_formula, voltage=4.06 V, capacity=195.0 mAh/g, ΔV=0.123, stability=0.073. Selected as DFT spot-check candidate, not as discovery claim.",
+  "reviewer_safety_note": "DFT spot-check candidate only; do not claim discovery or experimental validation."
+}

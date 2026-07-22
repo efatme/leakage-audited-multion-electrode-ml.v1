@@ -1,0 +1,39 @@
+{
+  "random_seed": 20260704,
+  "alpha": 0.05,
+  "interval_confidence": 0.95,
+  "n_estimators_uncertainty": 400,
+  "n_jobs_tree_models": 18,
+  "primary_targets": [
+    "average_voltage",
+    "capacity_grav",
+    "energy_grav",
+    "max_delta_volume",
+    "stability_worst"
+  ],
+  "protocols_for_uncertainty": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "splits_for_uncertainty": [
+    "random_split",
+    "framework_groupkfold",
+    "leave_family_out",
+    "leave_chemical_system_out",
+    "leave_working_ion_out"
+  ],
+  "random_split_repeats": 5,
+  "groupkfold_n_splits": 5,
+  "max_leave_chemsys_groups": 75,
+  "max_leave_family_groups": null,
+  "min_train_rows": 100,
+  "min_test_rows": 5,
+  "min_calibration_rows": 100,
+  "calibration_fraction": 0.2,
+  "knn_k": 5,
+  "no_candidate_ranking": true,
+  "no_cde_matching": true,
+  "no_criticality_filtering": true,
+  "no_manuscript_writing": true
+}

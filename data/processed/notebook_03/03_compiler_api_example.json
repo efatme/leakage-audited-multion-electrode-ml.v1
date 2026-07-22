@@ -1,0 +1,74 @@
+{
+  "target": "energy_grav",
+  "deployment_protocol": "P2",
+  "example_features": [
+    "average_voltage",
+    "capacity_grav",
+    "fw_X_mean",
+    "charge_summary_volume",
+    "charge_summary_formation_energy_per_atom",
+    "wi_is_Na"
+  ],
+  "compiled_decisions": [
+    {
+      "target": "energy_grav",
+      "feature": "average_voltage",
+      "feature_origin": "stored_electrode_target",
+      "leakage_level": "L2",
+      "leakage_reason": "Energy is defined by voltage and capacity, with unit-related energy/capacity variants.",
+      "rule_id": "RULE_ENERGY_DEFINITION",
+      "dependency_path": "feature::average_voltage -> concept::energy_definition -> target::energy_grav",
+      "allowed": false
+    },
+    {
+      "target": "energy_grav",
+      "feature": "capacity_grav",
+      "feature_origin": "stored_electrode_target",
+      "leakage_level": "L2",
+      "leakage_reason": "Energy is defined by voltage and capacity, with unit-related energy/capacity variants.",
+      "rule_id": "RULE_ENERGY_DEFINITION",
+      "dependency_path": "feature::capacity_grav -> concept::energy_definition -> target::energy_grav",
+      "allowed": false
+    },
+    {
+      "target": "energy_grav",
+      "feature": "fw_X_mean",
+      "feature_origin": "composition_known_framework",
+      "leakage_level": "L0",
+      "leakage_reason": "No direct target dependency is identified for this target.",
+      "rule_id": "RULE_SAFE_DEFAULT",
+      "dependency_path": "feature::fw_X_mean -> target::energy_grav",
+      "allowed": true
+    },
+    {
+      "target": "energy_grav",
+      "feature": "charge_summary_volume",
+      "feature_origin": "relaxed_structure_summary",
+      "leakage_level": "L0",
+      "leakage_reason": "The relaxed-structure summary is not target-defining for this target.",
+      "rule_id": "RULE_SAFE_STRUCTURE",
+      "dependency_path": "feature::charge_summary_volume -> target::energy_grav",
+      "allowed": true
+    },
+    {
+      "target": "energy_grav",
+      "feature": "charge_summary_formation_energy_per_atom",
+      "feature_origin": "post_dft_energy_stability_summary",
+      "leakage_level": "L2",
+      "leakage_reason": "Endpoint formation energies are target-defining or strongly target-adjacent for electrode energy.",
+      "rule_id": "RULE_FORMATION_ENERGY_ENERGY",
+      "dependency_path": "feature::charge_summary_formation_energy_per_atom -> concept::insertion_energy_difference -> target::energy_grav",
+      "allowed": false
+    },
+    {
+      "target": "energy_grav",
+      "feature": "wi_is_Na",
+      "feature_origin": "domain_label_onehot",
+      "leakage_level": "L5",
+      "leakage_reason": "Working-ion/domain labels encode validation-domain membership and must be controlled by split design.",
+      "rule_id": "RULE_DOMAIN_LABEL",
+      "dependency_path": "feature::wi_is_Na -> concept::validation_domain -> target::energy_grav",
+      "allowed": false
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "targets": [
+    "average_voltage",
+    "capacity_grav",
+    "capacity_vol",
+    "energy_grav",
+    "energy_vol",
+    "max_delta_volume",
+    "stability_charge",
+    "stability_discharge",
+    "stability_worst"
+  ],
+  "primary_benchmark_targets": [
+    "average_voltage",
+    "capacity_grav",
+    "energy_grav",
+    "max_delta_volume",
+    "stability_worst"
+  ],
+  "target_units": {
+    "average_voltage": "V",
+    "capacity_grav": "mAh/g",
+    "capacity_vol": "mAh/cm3",
+    "energy_grav": "Wh/kg",
+    "energy_vol": "Wh/L_or_Wh/dm3_database_dependent",
+    "max_delta_volume": "fraction_or_database_convention",
+    "stability_charge": "eV/atom",
+    "stability_discharge": "eV/atom",
+    "stability_worst": "eV/atom"
+  },
+  "leakage_class_definitions": {
+    "L0": {
+      "name": "safe descriptor",
+      "definition": "No direct target relationship identified by the rule-based battery leakage audit."
+    },
+    "L1": {
+      "name": "direct target duplicate",
+      "definition": "Feature is the exact target or a direct duplicate of the target."
+    },
+    "L2": {
+      "name": "target-defining component",
+      "definition": "Feature is a mathematical component, endpoint quantity, or stored component used to define/reconstruct the target."
+    },
+    "L3": {
+      "name": "stoichiometric near-target descriptor",
+      "definition": "Feature encodes working-ion insertion amount or charge/discharge stoichiometry closely tied to capacity/energy."
+    },
+    "L4": {
+      "name": "post-DFT adjacent descriptor",
+      "definition": "Feature is post-DFT or computed-record adjacent to the target but not a direct/defining duplicate."
+    },
+    "L5": {
+      "name": "group/domain leakage",
+      "definition": "Feature is a group, split, family, chemical-system, or domain label that can leak validation structure."
+    }
+  },
+  "protocol_definitions": {
+    "P0": {
+      "name": "full_feature_leaky_baseline_no_direct_target",
+      "description": "Historical/full-feature baseline. Direct target duplicate L1 and group/domain L5 are removed, but target-adjacent L2/L3/L4 descriptors are allowed to quantify optimistic leakage-prone performance.",
+      "allowed_leakage_levels": [
+        "L0",
+        "L2",
+        "L3",
+        "L4"
+      ]
+    },
+    "P1": {
+      "name": "composition_only_clean",
+      "description": "Framework-composition and known working-ion physicochemical descriptors only. No charge/discharge insertion-window stoichiometry, no stored electrochemical targets, no group labels.",
+      "allowed_leakage_levels": [
+        "L0"
+      ]
+    },
+    "P2": {
+      "name": "composition_plus_relaxed_structure_clean_strict",
+      "description": "P1 plus only conservative relaxed-structure summary descriptors such as nsites, volume, density, volume per site, and symmetry-number where target-specific leakage is L0. : P2 explicitly excludes post-DFT energy, hull-stability, electronic, stability-boolean, and provenance flags such as formation_energy, energy_above_hull, band_gap, is_metal, is_stable, theoretical.",
+      "allowed_leakage_levels": [
+        "L0"
+      ]
+    },
+    "P3": {
+      "name": "post_DFT_decision_support_clean_target_specific",
+      "description": "P2 plus post-DFT decision-support descriptors that are not target-defining for the specific target. : for voltage/energy, endpoint formation-energy descriptors are excluded; for stability, endpoint hull/stability descriptors are excluded; for volume-change, endpoint volume/density descriptors are excluded. P3 must be interpreted as post-DFT decision support, not pre-DFT discovery.",
+      "allowed_leakage_levels": [
+        "L0",
+        "L4"
+      ]
+    },
+    "P4": {
+      "name": "leakage_stress_test",
+      "description": "Intentional leakage stress test. Direct target duplicates and target-adjacent descriptors may be included. Use only to demonstrate how leakage inflates performance; not a valid predictive protocol.",
+      "allowed_leakage_levels": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ]
+    }
+  },
+  "patch_notes": [
+    "P2 now excludes formation_energy, energy_above_hull, band_gap, is_metal, is_stable, theoretical.",
+    "P3 voltage/energy excludes endpoint formation-energy descriptors.",
+    "P3 stability excludes endpoint energy_above_hull/is_stable descriptors.",
+    "P3 volume-change excludes endpoint volume/density/delta-volume descriptors."
+  ]
+}

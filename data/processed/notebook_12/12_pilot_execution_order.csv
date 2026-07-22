@@ -1,0 +1,9 @@
+step,job,action
+1,Na_metal_reference/01_relax,"Generate private POTCAR, submit relaxation, verify convergence."
+2,Na_candidate_06/charged/01_relax,"Generate private POTCAR, submit exact charged-state relaxation."
+3,Na_candidate_06/discharged/01_relax,"Generate private POTCAR, submit exact discharged-state relaxation."
+4,all 02_static_template directories,"Only after relaxation convergence, copy each CONTCAR to the matching static directory as POSCAR."
+5,Na_metal_reference/02_static_template,Submit the dense-mesh Na reference static calculation.
+6,Na_candidate_06/charged/02_static_template,Submit the charged-state static calculation.
+7,Na_candidate_06/discharged/02_static_template,Submit the discharged-state static calculation.
+8,result collection,"Preserve OUTCAR, vasprun.xml, OSZICAR, CONTCAR, INCAR, KPOINTS and calculation logs."
