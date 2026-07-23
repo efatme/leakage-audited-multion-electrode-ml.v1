@@ -1269,12 +1269,13 @@ def generate_all_figures(root: Path | None = None) -> dict[str, object]:
     )
 
     result = {
-        "repository_root": str(root),
+        "schema_version": "1.1",
+        "repository_root": ".",
         "main_figure_files": len(list(MAIN_DIR.iterdir())),
         "supplementary_figure_files": len(list(SUPP_DIR.iterdir())),
         "source_data_files": len(list(SOURCE_DIR.iterdir())),
-        "figure_manifest": str(manifest),
-        "source_hash_manifest": str(source_hashes),
+        "figure_manifest": manifest.relative_to(root).as_posix(),
+        "source_hash_manifest": source_hashes.relative_to(root).as_posix(),
     }
     receipt = root / "figures/figure_generation_receipt.json"
     receipt.write_text(

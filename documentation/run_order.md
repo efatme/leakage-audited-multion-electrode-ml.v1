@@ -1,4 +1,7 @@
+
 # Notebook run order
+
+Run the notebooks from the repository root in the following order:
 
 1. `01_multion_data_extraction.ipynb`
 2. `02_leakage_taxonomy_and_descriptor_protocols.ipynb`
@@ -13,5 +16,13 @@
 11. `11_exact_state_dft_preparation.ipynb`
 12. `12_pilot_dft_packaging.ipynb`
 13. `13_quantum_espresso_pilot_preparation.ipynb`
+14. `14_manuscript_figure_generation.ipynb`
 
-Run from the repository root. Runtime-only files use `.runtime_cache/` unless `CMT_RUNTIME_CACHE_DIR` is set.
+Notebook 14 is a reporting-only stage. It reads locked outputs and generates the
+main and supplementary manuscript figures without model fitting, protocol
+selection, candidate re-ranking, or Quantum ESPRESSO execution.
+
+Runtime-only files use `.runtime_cache/` unless `CMT_RUNTIME_CACHE_DIR` is set.
+The raw sodium Materials Project JSON is governed by
+`configuration/runtime_data_policy.json` and is not required for repository
+inspection.

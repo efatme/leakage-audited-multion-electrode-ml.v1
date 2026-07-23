@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "section_map": {
     "01": {
       "audit": "results/audits/notebook_01",
@@ -61,6 +61,14 @@
       "metadata": "provenance/notebook_09",
       "processed": "data/processed/notebook_09"
     },
+    "10": {
+      "audit": "results/audits/notebook_10",
+      "dft_inputs": "documentation/notebook_10/dft_inputs",
+      "logs": "provenance/notebook_10",
+      "metadata": "provenance/notebook_10",
+      "processed": "data/processed/notebook_10",
+      "supplementary_inputs": "provenance/supplementary/notebook_10/dft_inputs"
+    },
     "11": {
       "audit": "results/audits/notebook_11",
       "dft_inputs": "documentation/notebook_11/dft_inputs",
@@ -75,6 +83,23 @@
       "metadata": "provenance/notebook_12",
       "pilot_dft_package": "documentation/notebook_12/pilot_dft_package",
       "processed": "data/processed/notebook_12"
+    },
+    "13": {
+      "calculation_manifest": "configuration/13_calculation_manifest.csv",
+      "dft_validation": "dft_validation",
+      "expected_result_schema": "configuration/13_expected_result_schema.csv",
+      "pilot_dft_resource_config": "configuration/pilot_dft_resource_config.yaml",
+      "pseudopotential_policy": "configuration/pseudopotential_policy.json"
+    },
+    "14": {
+      "audit": "results/audits/notebook_14",
+      "figure_manifest": "figures/figure_manifest.csv",
+      "figure_receipt": "figures/figure_generation_receipt.json",
+      "figures_main": "figures/main",
+      "figures_source_data": "figures/source_data",
+      "figures_supplementary": "figures/supplementary",
+      "metadata": "provenance/notebook_14",
+      "software": "software/manuscript_figures.py"
     }
   }
 }
