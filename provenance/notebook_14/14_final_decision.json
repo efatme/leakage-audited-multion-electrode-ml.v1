@@ -1,0 +1,19 @@
+{
+  "schema_version": "14-manuscript-figures-v1",
+  "decision": "PASS_MANUSCRIPT_FIGURES_GENERATED_FROM_LOCKED_OUTPUTS",
+  "audit_failures": 0,
+  "main_figures": 6,
+  "supplementary_figures": 10,
+  "formats": [
+    "PDF",
+    "PNG"
+  ],
+  "png_dpi": 600,
+  "model_training_performed": false,
+  "candidate_reranking_performed": false,
+  "dft_execution_performed": false,
+  "unconverged_relaxations_used_for_voltage": false,
+  "selected_fixed_geometry_voltage_V": 3.203420972291968,
+  "denser_reference_voltage_V": 3.2030616289296017,
+  "absolute_voltage_difference_V": 0.0003593433623665
+}

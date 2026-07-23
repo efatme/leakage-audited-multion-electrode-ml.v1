@@ -1,0 +1,10 @@
+target,n_rows,class_agreement_n,class_agreement_rate,false_safe_n,compiler_more_conservative_n,all_protocols_agree_n,all_protocols_agree_rate,P0_agreement_rate,P1_agreement_rate,P2_agreement_rate,P3_agreement_rate,P4_agreement_rate
+average_voltage,270,270,1.0,0,0,270,1.0,1.0,1.0,1.0,1.0,1.0
+capacity_grav,270,270,1.0,0,0,270,1.0,1.0,1.0,1.0,1.0,1.0
+capacity_vol,270,270,1.0,0,0,270,1.0,1.0,1.0,1.0,1.0,1.0
+energy_grav,270,270,1.0,0,0,270,1.0,1.0,1.0,1.0,1.0,1.0
+energy_vol,270,270,1.0,0,0,270,1.0,1.0,1.0,1.0,1.0,1.0
+max_delta_volume,270,270,1.0,0,0,270,1.0,1.0,1.0,1.0,1.0,1.0
+stability_charge,270,270,1.0,0,0,270,1.0,1.0,1.0,1.0,1.0,1.0
+stability_discharge,270,270,1.0,0,0,270,1.0,1.0,1.0,1.0,1.0,1.0
+stability_worst,270,270,1.0,0,0,270,1.0,1.0,1.0,1.0,1.0,1.0

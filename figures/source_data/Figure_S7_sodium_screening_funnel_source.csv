@@ -1,0 +1,9 @@
+stage,n_records,pct_of_Na_total
+All Na insertion-electrode records,416,100.0
+Physics-plausible all/primary mask,394,94.71153846153848
+Voltage 2.0–4.5 V,278,66.82692307692308
+Capacity ≥ 50 mAh/g,357,85.8173076923077
+Energy ≥ 150 Wh/kg,331,79.5673076923077
+Volume change ≤ 0.35,391,93.9903846153846
+Worst stability ≤ 0.10 eV/atom,308,74.03846153846153
+All case-study screen criteria,180,43.26923076923077

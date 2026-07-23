@@ -1,0 +1,22 @@
+{
+  "schema_version": "14-manuscript-figures-v1",
+  "main_figures": 6,
+  "supplementary_figures": 10,
+  "formats": [
+    "pdf",
+    "png"
+  ],
+  "png_dpi": 600,
+  "font_preference": [
+    "Times New Roman",
+    "Times",
+    "DejaVu Serif"
+  ],
+  "no_model_training": true,
+  "no_candidate_reranking": true,
+  "no_dft_execution": true,
+  "fixed_geometry_voltage_only": true,
+  "selected_voltage_V": 3.203420972,
+  "denser_reference_voltage_V": 3.203061629,
+  "absolute_voltage_difference_V": 0.000359343
+}

@@ -1,0 +1,8 @@
+{
+  "repository_root": "/mnt/data/cmt_repo_extracted/leakage-audited-multion-electrode-ml.v1-main",
+  "main_figure_files": 12,
+  "supplementary_figure_files": 20,
+  "source_data_files": 17,
+  "figure_manifest": "/mnt/data/cmt_repo_extracted/leakage-audited-multion-electrode-ml.v1-main/figures/figure_manifest.csv",
+  "source_hash_manifest": "/mnt/data/cmt_repo_extracted/leakage-audited-multion-electrode-ml.v1-main/figures/source_data/source_file_hashes.csv"
+}
