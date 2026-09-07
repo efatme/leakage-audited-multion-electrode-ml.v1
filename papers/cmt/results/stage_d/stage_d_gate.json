@@ -1,0 +1,17 @@
+{
+  "analysis_id": "cmt_stage_d_v1",
+  "config_sha256": "8d4632df7b7526d0f04844b55c83e766288c07b51a34d140746249a04f267a29",
+  "domain_point_stage_results_are_descriptive_supporting_evidence": true,
+  "historical_reuse": true,
+  "n_canonical_fold_rows": 2376,
+  "n_domain_splits": 3,
+  "n_historical_fold_rows_reused": 1320,
+  "n_new_extratrees_fits": 1056,
+  "n_stages": 3,
+  "n_targets": 9,
+  "primary_earliest_useful_stage_remains_stage_c": true,
+  "scope": "coarse_chemistry_family_host_chemical_system_working_ion_robustness",
+  "stage": "D",
+  "status": "PASS",
+  "timestamp_utc": "2026-09-07T16:54:08Z"
+}

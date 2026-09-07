@@ -1,0 +1,90 @@
+schema_version: 1
+analysis_id: cmt_stage_d_v1
+paper_identity: target_specific_information_provenance_and_stage_dependent_learnability
+
+inputs:
+  stage_ab_config: papers/cmt/config/cmt_stage_ab_v1.yaml
+  stage_b_gate: papers/cmt/results/stage_ab/stage_b_gate.json
+  stage_b_primary_summary: papers/cmt/results/stage_ab/stage_b_primary_summary.csv
+  stage_c_gate: papers/cmt/results/stage_c/stage_c_gate.json
+  stage_c_earliest_useful_stage: papers/cmt/results/stage_c/stage_c_earliest_useful_stage.csv
+  master_feature_table: data/processed/notebook_02/02_master_feature_table.csv
+  valid_record_universe: data/processed/notebook_05/05_valid_record_universe.csv
+  split_plan: data/processed/notebook_05/05_split_plan.csv
+  outer_test_manifest: data/processed/notebook_05/05_outer_test_record_manifest.csv
+  historical_fold_results: data/processed/notebook_04/04_benchmark_fold_results.csv
+  historical_model_audit: results/audits/notebook_04/04_model_audit.csv
+  historical_config: provenance/notebook_04/04_benchmark_config.json
+  protocol_feature_dir: data/processed/notebook_02/protocol_feature_lists
+
+robustness_validations:
+  leave_family_out:
+    reporting_name: coarse-chemistry-family-held-out validation
+    expected_folds: 10
+  leave_chemical_system_out:
+    reporting_name: host-chemical-system-held-out validation
+    expected_folds: 75
+  leave_working_ion_out:
+    reporting_name: working-ion-held-out validation
+    expected_folds: 3
+
+execution_order:
+  - leave_working_ion_out
+  - leave_family_out
+  - leave_chemical_system_out
+
+historical_reuse:
+  enabled: true
+  reusable_targets:
+    - average_voltage
+    - capacity_grav
+    - energy_grav
+    - max_delta_volume
+    - stability_worst
+  new_fit_targets:
+    - capacity_vol
+    - energy_vol
+    - stability_charge
+    - stability_discharge
+  framework_compatibility_split: framework_groupkfold
+  maximum_relative_metric_difference: 0.0005
+  note: >-
+    Reuse is allowed only if the historical fixed-ExtraTrees benchmark passes
+    model, split-size, feature-count, and current Stage-B framework compatibility
+    gates. If any gate fails, Stage D automatically falls back to a full nine-target rerun.
+
+model:
+  primary_estimator: ExtraTreesRegressor
+  preprocessing:
+    imputer: median
+  params:
+    n_estimators: 300
+    max_features: 1.0
+    min_samples_leaf: 1
+    bootstrap: false
+    random_state: 42
+  baseline:
+    estimator: DummyRegressor
+    strategy: mean
+  execution:
+    tree_n_jobs: auto
+    tree_n_jobs_cap: 18
+    outer_parallelism: false
+
+metrics:
+  primary:
+    - MAE
+    - RMSE
+  secondary:
+    - R2
+    - Spearman
+
+point_skill_threshold: 0.10
+
+interpretation:
+  primary_stage_source: stage_c_earliest_useful_stage
+  domain_results_are_supporting_robustness: true
+  no_new_earliest_useful_claim_from_domain_point_estimates: true
+  working_ion_report_each_ion_separately: true
+  host_system_estimand: equal_weight_macro_mean_over_75_predefined_heldout_systems
+  coarse_family_estimand: equal_weight_macro_mean_over_10_predefined_heuristic_families

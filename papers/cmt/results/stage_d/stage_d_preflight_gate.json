@@ -1,0 +1,21 @@
+{
+  "execution_mode": "lean_historical_reuse_plus_four_new_targets",
+  "expected_new_extratrees_fits": 1056,
+  "expected_total_domain_folds_per_target_stage": 88,
+  "historical_reuse_enabled": true,
+  "reused_targets": [
+    "average_voltage",
+    "capacity_grav",
+    "energy_grav",
+    "max_delta_volume",
+    "stability_worst"
+  ],
+  "run_targets": [
+    "capacity_vol",
+    "energy_vol",
+    "stability_charge",
+    "stability_discharge"
+  ],
+  "status": "PASS",
+  "timestamp_utc": "2026-09-07T16:32:41Z"
+}

@@ -1,0 +1,14 @@
+{
+  "analysis_id": "cmt_stage_c_v1",
+  "config_sha256": "15eb04ea4c7e94f89d1c6b893c81d1fb760931b36af7f7f44831d8da5ae8c4f9",
+  "model_refitting_performed": false,
+  "n_bootstrap_replicates": 5000,
+  "n_final_earliest_stage_rows": 9,
+  "n_stages": 3,
+  "n_targets": 9,
+  "primary_validation": "framework-formula-grouped validation",
+  "stage": "C",
+  "stage_b_oof_sha256": "0e45d877f0b0345f20716810a84fedb8514be364fee4b69e6fa0c12edd48f1c5",
+  "status": "PASS",
+  "timestamp_utc": "2026-09-07T16:21:30Z"
+}

@@ -1,0 +1,146 @@
+schema_version: 1
+analysis_id: cmt_stage_ab_v1
+paper_identity: target_specific_information_provenance_and_stage_dependent_learnability
+
+inputs:
+  master_feature_table: data/processed/notebook_02/02_master_feature_table.csv
+  metadata_targets: data/processed/notebook_02/02_master_metadata_and_targets.csv
+  valid_record_universe: data/processed/notebook_05/05_valid_record_universe.csv
+  split_plan: data/processed/notebook_05/05_split_plan.csv
+  outer_test_manifest: data/processed/notebook_05/05_outer_test_record_manifest.csv
+  protocol_feature_dir: data/processed/notebook_02/protocol_feature_lists
+  protocol_integrity_audit: results/audits/notebook_02/02_protocol_integrity_audit.csv
+  target_specific_matrix: results/audits/notebook_02/02_target_specific_leakage_matrix.csv
+  dependency_nodes: data/processed/notebook_03/03_dependency_graph_nodes.csv
+  dependency_edges: data/processed/notebook_03/03_dependency_graph_edges.csv
+  compiler_agreement: results/audits/notebook_03/03_manual_vs_compiler_agreement.csv
+  historical_benchmark: data/processed/notebook_04/04_benchmark_aggregate_results.csv
+  historical_model_audit: results/audits/notebook_04/04_model_audit.csv
+  historical_config: provenance/notebook_04/04_benchmark_config.json
+
+locked_dataset:
+  n_records: 3201
+  ion_counts:
+    Li: 2658
+    Na: 394
+    K: 149
+  n_framework_formula_groups: 1955
+  n_host_chemical_systems: 709
+  n_coarse_chemistry_families: 10
+
+provenance_graph:
+  n_candidate_features: 270
+  n_targets: 9
+  n_feature_target_pairs: 2430
+  n_nodes: 291
+  n_directed_relations: 2438
+
+stages:
+  - P1
+  - P2
+  - P3
+
+stage_labels:
+  P1: composition_only_clean
+  P2: composition_plus_relaxed_structure_clean
+  P3: legitimate_post_dft_decision_support
+
+targets:
+  average_voltage:
+    unit: V
+    P1: 73
+    P2: 93
+    P3: 108
+  capacity_grav:
+    unit: mAh/g
+    P1: 73
+    P2: 93
+    P3: 112
+  capacity_vol:
+    unit: mAh/cm3
+    P1: 73
+    P2: 93
+    P3: 112
+  energy_grav:
+    unit: Wh/kg
+    P1: 73
+    P2: 93
+    P3: 108
+  energy_vol:
+    unit: Wh/L
+    P1: 73
+    P2: 93
+    P3: 108
+  max_delta_volume:
+    unit: database_volume_change
+    P1: 73
+    P2: 77
+    P3: 96
+  stability_charge:
+    unit: eV/atom
+    P1: 73
+    P2: 93
+    P3: 105
+  stability_discharge:
+    unit: eV/atom
+    P1: 73
+    P2: 93
+    P3: 105
+  stability_worst:
+    unit: eV/atom
+    P1: 73
+    P2: 93
+    P3: 105
+
+primary_validation:
+  split_name: framework_groupkfold
+  reporting_name: framework-formula-grouped validation
+  group_field: framework_uid
+  n_folds: 5
+  source: frozen_notebook_05_outer_test_record_manifest
+
+model:
+  primary_estimator: ExtraTreesRegressor
+  preprocessing:
+    imputer: median
+  params:
+    n_estimators: 300
+    max_features: 1.0
+    min_samples_leaf: 1
+    bootstrap: false
+    random_state: 42
+  baseline:
+    estimator: DummyRegressor
+    strategy: mean
+  execution:
+    tree_n_jobs: auto
+    tree_n_jobs_cap: 18
+    outer_jobs_max: 1
+    parallel_backend: outer_serial_tree_parallel
+    target_stage_batch_size: 1
+    note: folds are evaluated serially while each ExtraTrees fit uses available cores up to 18, matching the original benchmark parallelization pattern and avoiding nested parallelism
+
+metrics:
+  primary:
+    - MAE
+    - RMSE
+  secondary:
+    - R2
+    - Spearman
+
+useful_learnability_rule:
+  status: frozen_before_new_nine_target_benchmark
+  primary_validation: framework_groupkfold
+  minimum_mae_skill_vs_dummy: 0.10
+  minimum_rmse_skill_vs_dummy: 0.10
+  final_confirmation: group_respecting_bootstrap_intervals_for_both_skills_entirely_above_zero
+  threshold_sensitivity_later:
+    - 0.05
+    - 0.20
+  stage_b_note: Stage B reports point estimates only; final earliest-useful-stage labels require the later bootstrap step.
+
+stage_b_scope:
+  run_primary_framework_grouped_only: true
+  save_complete_oof_predictions: true
+  run_random_or_domain_stress_tests: false
+  rationale: primary learnability must be established before secondary robustness calculations

@@ -1,17 +1,40 @@
+# Runtime and notebook caches
 .runtime_cache/
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+
+# CMT resumable fit checkpoints are runtime artifacts, not publication outputs
+papers/cmt/results/*/_checkpoints/
+
+# Logs and temporary files
 *.log
 *.tmp
 *.bak
+*.swp
+*~
+
+# Local environments and secrets
 .env
 .env.*
 venv/
 .venv/
+
+# Windows/macOS metadata
+Thumbs.db
+.DS_Store
+
+# Quantum ESPRESSO runtime/restart files and non-redistributed pseudopotentials
 *.save/
 *.wfc*
 *.mix*
 *.restart*
 *.UPF
 pwscf*
+
+# Packaging artifacts: use GitHub Releases or local backups instead of Git history
+*.zip
+*.7z
+*.rar

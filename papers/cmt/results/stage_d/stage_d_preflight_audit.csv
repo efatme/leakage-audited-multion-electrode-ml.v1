@@ -1,0 +1,38 @@
+check,expected,observed,pass,detail
+input_exists::stage_ab_config,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\config\cmt_stage_ab_v1.yaml
+input_exists::stage_b_gate,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_ab\stage_b_gate.json
+input_exists::stage_b_primary_summary,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_ab\stage_b_primary_summary.csv
+input_exists::stage_c_gate,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_c\stage_c_gate.json
+input_exists::stage_c_earliest_useful_stage,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_c\stage_c_earliest_useful_stage.csv
+input_exists::master_feature_table,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\02_master_feature_table.csv
+input_exists::valid_record_universe,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_05\05_valid_record_universe.csv
+input_exists::split_plan,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_05\05_split_plan.csv
+input_exists::outer_test_manifest,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_05\05_outer_test_record_manifest.csv
+input_exists::historical_fold_results,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_04\04_benchmark_fold_results.csv
+input_exists::historical_model_audit,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\results\audits\notebook_04\04_model_audit.csv
+input_exists::historical_config,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\provenance\notebook_04\04_benchmark_config.json
+stage_b_gate,PASS,PASS,True,
+stage_c_gate,PASS,PASS,True,
+stage_b_targets,9,9,True,
+stage_c_targets,9,9,True,
+valid_records,3201,3201,True,
+targets_from_stage_ab,9,9,True,
+stages_from_stage_ab,"P1,P2,P3","P1,P2,P3",True,
+split_folds::leave_family_out,10,10,True,
+split_test_sizes::leave_family_out,True,True,True,
+split_folds::leave_chemical_system_out,75,75,True,
+split_test_sizes::leave_chemical_system_out,True,True,True,
+split_folds::leave_working_ion_out,3,3,True,
+split_test_sizes::leave_working_ion_out,True,True,True,
+reuse_plus_new_cover_all_targets,"{'stability_charge', 'energy_grav', 'stability_discharge', 'max_delta_volume', 'average_voltage', 'energy_vol', 'stability_worst', 'capacity_vol', 'capacity_grav'}","{'stability_charge', 'energy_grav', 'stability_discharge', 'max_delta_volume', 'average_voltage', 'energy_vol', 'stability_worst', 'capacity_vol', 'capacity_grav'}",True,
+reuse_and_new_disjoint,True,True,True,
+historical_model_core_config,True,True,True,"Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('model',
+                 ExtraTreesRegressor(n_estimators=300, n_jobs=18,
+                                     random_state=42))])"
+historical_domain_model_rows,2640,2640,True,
+historical_status_all_ok,True,True,True,
+historical_feature_counts_match,True,True,True,
+historical_split_sizes_match,True,True,True,
+historical_framework_compatibility,True,True,True,max_mae_rel=7.2045564e-05; max_rmse_rel=0.00016459654; tol=0.0005
+execution_mode_selected,lean reuse if compatible,lean_historical_reuse_plus_four_new_targets,True,

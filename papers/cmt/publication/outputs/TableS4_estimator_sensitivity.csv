@@ -1,0 +1,10 @@
+target,primary_ExtraTrees_earliest_useful_stage,secondary_Ridge_earliest_useful_stage,same_earliest_stage,interpretation
+average_voltage,P1,P1,True,secondary estimator sensitivity only; Stage C ExtraTrees remains primary
+capacity_grav,P1,P1,True,secondary estimator sensitivity only; Stage C ExtraTrees remains primary
+capacity_vol,P1,P1,True,secondary estimator sensitivity only; Stage C ExtraTrees remains primary
+energy_grav,P1,P1,True,secondary estimator sensitivity only; Stage C ExtraTrees remains primary
+energy_vol,P1,P1,True,secondary estimator sensitivity only; Stage C ExtraTrees remains primary
+max_delta_volume,none_through_P3,none_through_P3,True,secondary estimator sensitivity only; Stage C ExtraTrees remains primary
+stability_charge,P2,none_through_P3,False,secondary estimator sensitivity only; Stage C ExtraTrees remains primary
+stability_discharge,P3,none_through_P3,False,secondary estimator sensitivity only; Stage C ExtraTrees remains primary
+stability_worst,P2,none_through_P3,False,secondary estimator sensitivity only; Stage C ExtraTrees remains primary

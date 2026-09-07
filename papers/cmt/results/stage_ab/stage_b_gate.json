@@ -1,0 +1,15 @@
+{
+  "analysis_id": "cmt_stage_ab_v1",
+  "config_sha256": "2074869bf3a12f6994202fb3cd85fc43e031ba76589cb8666c215fda4718b44a",
+  "earliest_useful_stage_status": "point_estimate_only_pending_group_bootstrap",
+  "n_extratrees_fits": 135,
+  "n_folds": 5,
+  "n_oof_predictions": 86427,
+  "n_stages": 3,
+  "n_targets": 9,
+  "primary_validation": "framework-formula-grouped validation",
+  "scope": "primary_framework_formula_grouped_only",
+  "stage": "B",
+  "status": "PASS",
+  "timestamp_utc": "2026-09-07T16:01:25Z"
+}

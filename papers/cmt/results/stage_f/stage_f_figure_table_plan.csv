@@ -1,0 +1,11 @@
+item,placement,title,content,source
+Figure 1,Main,Target-specific information provenance and stage eligibility,Dependency framework; feature blocks; P1/P2/P3 computational stages; target-dependent feature counts,Stage A
+Figure 2,Main,Stage-dependent learnability,Nine targets x P1/P2/P3 heatmap of Dummy-relative MAE/RMSE skill; mark primary earliest useful stage,Stage C
+Figure 3,Main,Incremental information value,"Paired P1->P2, P2->P3, P1->P3 relative MAE/RMSE changes with 95% group-bootstrap intervals",Stage C
+Figure 4,Main,Chemical-domain robustness,"Compact target x validation heatmap for framework-formula primary result plus host-system, coarse-family and working-ion descriptive stage status",Stages C-D
+Table 1,Main,Target-level summary,P1/P2/P3 feature counts; primary earliest useful stage; concise robustness and estimator-sensitivity flags,Stages A-E
+Table S1,SI,Full Stage C performance,"MAE/RMSE, DummyMean skill and bootstrap intervals for all 27 target-stage combinations",Stage C
+Table S2,SI,Threshold sensitivity,"Earliest stage at 5%, 10%, 20% thresholds",Stage C
+Table S3,SI,Domain robustness,All domain macro metrics and fold-level transition summaries,Stage D
+Table S4,SI,Estimator sensitivity,"Ridge performance, bootstrap skill and earliest-stage comparison",Stage E
+Figure/Table S5,SI,Information controls,P0/P4 controls and leakage-by-domain interaction with corrected wording,Existing control outputs

@@ -1,0 +1,76 @@
+schema_version: 1
+analysis_id: cmt_stage_c_v1
+paper_identity: target_specific_information_provenance_and_stage_dependent_learnability
+
+inputs:
+  stage_ab_config: papers/cmt/config/cmt_stage_ab_v1.yaml
+  stage_b_gate: papers/cmt/results/stage_ab/stage_b_gate.json
+  stage_b_oof_predictions: papers/cmt/results/stage_ab/stage_b_oof_predictions.csv
+  stage_b_primary_summary: papers/cmt/results/stage_ab/stage_b_primary_summary.csv
+  stage_a_split_manifest: papers/cmt/results/stage_ab/stage_a_primary_split_manifest.csv
+
+output_dir: papers/cmt/results/stage_c
+
+targets:
+  - average_voltage
+  - capacity_grav
+  - capacity_vol
+  - energy_grav
+  - energy_vol
+  - max_delta_volume
+  - stability_charge
+  - stability_discharge
+  - stability_worst
+
+stages:
+  - P1
+  - P2
+  - P3
+
+primary_validation:
+  reporting_name: framework-formula-grouped validation
+  split_name: framework_groupkfold
+  group_field: framework_uid
+  stratify_bootstrap_by: fold_id
+  n_folds: 5
+  n_records: 3201
+  n_framework_formula_groups: 1955
+
+bootstrap:
+  n_replicates: 5000
+  confidence_level: 0.95
+  interval_method: percentile
+  random_seed: 20260907
+  resampling_unit: framework_uid
+  resample_within_fold: true
+  paired_across_stages: true
+  paired_across_targets: true
+  note: Resample framework-formula groups with replacement separately inside each frozen test fold. The same resampled group multiplicities are applied to every target and information stage in a replicate.
+
+useful_learnability_rule:
+  primary_threshold: 0.10
+  mae_skill_definition: 1 - MAE_ExtraTrees / MAE_DummyMean
+  rmse_skill_definition: 1 - RMSE_ExtraTrees / RMSE_DummyMean
+  point_requirement: both MAE and RMSE skills are at least the primary threshold
+  interval_requirement: 95 percent bootstrap intervals for both skills are entirely above zero
+  final_rule: point_requirement AND interval_requirement
+  threshold_sensitivity:
+    - 0.05
+    - 0.10
+    - 0.20
+
+incremental_information_value:
+  transitions:
+    - [P1, P2]
+    - [P2, P3]
+    - [P1, P3]
+  absolute_definition: error_from_stage - error_to_stage
+  relative_definition: (error_from_stage - error_to_stage) / error_from_stage
+  interpretation: positive values indicate lower prediction error at the later information stage
+
+scope:
+  refit_models: false
+  run_domain_stress_tests: false
+  run_ridge_sensitivity: false
+  run_P0_or_P4_controls: false
+  note: Stage C performs inference only on the frozen Stage B out-of-fold predictions.

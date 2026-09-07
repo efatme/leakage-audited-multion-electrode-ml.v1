@@ -1,0 +1,10 @@
+check,expected,observed,pass,detail
+canonical_fold_rows,2376,2376,True,
+all_nine_targets,9,9,True,
+all_three_stages,3,3,True,
+all_three_domain_splits,3,3,True,
+finite_primary_metrics,True,True,True,
+no_duplicate_target_stage_split_fold,False,False,True,
+complete_folds::leave_family_out,True,True,True,
+complete_folds::leave_chemical_system_out,True,True,True,
+complete_folds::leave_working_ion_out,True,True,True,

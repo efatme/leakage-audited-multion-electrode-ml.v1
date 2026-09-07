@@ -1,0 +1,5 @@
+check,expected,observed,pass,detail
+ridge_fits,135,135,True,
+ridge_oof_rows,86427,86427,True,
+finite_predictions,True,True,True,
+no_duplicate_target_stage_record,False,False,True,

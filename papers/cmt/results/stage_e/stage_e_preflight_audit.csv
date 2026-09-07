@@ -1,0 +1,115 @@
+check,expected,observed,pass,detail
+input_exists::master_feature_table,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\02_master_feature_table.csv
+input_exists::valid_record_universe,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_05\05_valid_record_universe.csv
+input_exists::protocol_feature_dir,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists
+input_exists::stage_a_split_manifest,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_ab\stage_a_primary_split_manifest.csv
+input_exists::stage_b_gate,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_ab\stage_b_gate.json
+input_exists::stage_c_gate,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_c\stage_c_gate.json
+input_exists::stage_c_earliest_useful_stage,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_c\stage_c_earliest_useful_stage.csv
+input_exists::stage_d_gate,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_d\stage_d_gate.json
+stage_b_gate_status,PASS,PASS,True,
+stage_c_gate_status,PASS,PASS,True,
+stage_d_gate_status,PASS,PASS,True,
+valid_records,3201,3201,True,
+split_rows,3201,3201,True,
+split_folds,5,5,True,
+stage_c_n_targets,9,9,True,
+feature_file::average_voltage::P1,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P1_features_for_target_average_voltage.csv
+feature_unique::average_voltage::P1,73,73,True,
+features_present::average_voltage::P1,0,0,True,
+feature_file::average_voltage::P2,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P2_features_for_target_average_voltage.csv
+feature_unique::average_voltage::P2,93,93,True,
+features_present::average_voltage::P2,0,0,True,
+feature_file::average_voltage::P3,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P3_features_for_target_average_voltage.csv
+feature_unique::average_voltage::P3,108,108,True,
+features_present::average_voltage::P3,0,0,True,
+nested_P1_P2::average_voltage,True,True,True,
+nested_P2_P3::average_voltage,True,True,True,
+feature_file::capacity_grav::P1,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P1_features_for_target_capacity_grav.csv
+feature_unique::capacity_grav::P1,73,73,True,
+features_present::capacity_grav::P1,0,0,True,
+feature_file::capacity_grav::P2,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P2_features_for_target_capacity_grav.csv
+feature_unique::capacity_grav::P2,93,93,True,
+features_present::capacity_grav::P2,0,0,True,
+feature_file::capacity_grav::P3,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P3_features_for_target_capacity_grav.csv
+feature_unique::capacity_grav::P3,112,112,True,
+features_present::capacity_grav::P3,0,0,True,
+nested_P1_P2::capacity_grav,True,True,True,
+nested_P2_P3::capacity_grav,True,True,True,
+feature_file::capacity_vol::P1,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P1_features_for_target_capacity_vol.csv
+feature_unique::capacity_vol::P1,73,73,True,
+features_present::capacity_vol::P1,0,0,True,
+feature_file::capacity_vol::P2,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P2_features_for_target_capacity_vol.csv
+feature_unique::capacity_vol::P2,93,93,True,
+features_present::capacity_vol::P2,0,0,True,
+feature_file::capacity_vol::P3,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P3_features_for_target_capacity_vol.csv
+feature_unique::capacity_vol::P3,112,112,True,
+features_present::capacity_vol::P3,0,0,True,
+nested_P1_P2::capacity_vol,True,True,True,
+nested_P2_P3::capacity_vol,True,True,True,
+feature_file::energy_grav::P1,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P1_features_for_target_energy_grav.csv
+feature_unique::energy_grav::P1,73,73,True,
+features_present::energy_grav::P1,0,0,True,
+feature_file::energy_grav::P2,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P2_features_for_target_energy_grav.csv
+feature_unique::energy_grav::P2,93,93,True,
+features_present::energy_grav::P2,0,0,True,
+feature_file::energy_grav::P3,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P3_features_for_target_energy_grav.csv
+feature_unique::energy_grav::P3,108,108,True,
+features_present::energy_grav::P3,0,0,True,
+nested_P1_P2::energy_grav,True,True,True,
+nested_P2_P3::energy_grav,True,True,True,
+feature_file::energy_vol::P1,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P1_features_for_target_energy_vol.csv
+feature_unique::energy_vol::P1,73,73,True,
+features_present::energy_vol::P1,0,0,True,
+feature_file::energy_vol::P2,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P2_features_for_target_energy_vol.csv
+feature_unique::energy_vol::P2,93,93,True,
+features_present::energy_vol::P2,0,0,True,
+feature_file::energy_vol::P3,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P3_features_for_target_energy_vol.csv
+feature_unique::energy_vol::P3,108,108,True,
+features_present::energy_vol::P3,0,0,True,
+nested_P1_P2::energy_vol,True,True,True,
+nested_P2_P3::energy_vol,True,True,True,
+feature_file::max_delta_volume::P1,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P1_features_for_target_max_delta_volume.csv
+feature_unique::max_delta_volume::P1,73,73,True,
+features_present::max_delta_volume::P1,0,0,True,
+feature_file::max_delta_volume::P2,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P2_features_for_target_max_delta_volume.csv
+feature_unique::max_delta_volume::P2,77,77,True,
+features_present::max_delta_volume::P2,0,0,True,
+feature_file::max_delta_volume::P3,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P3_features_for_target_max_delta_volume.csv
+feature_unique::max_delta_volume::P3,96,96,True,
+features_present::max_delta_volume::P3,0,0,True,
+nested_P1_P2::max_delta_volume,True,True,True,
+nested_P2_P3::max_delta_volume,True,True,True,
+feature_file::stability_charge::P1,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P1_features_for_target_stability_charge.csv
+feature_unique::stability_charge::P1,73,73,True,
+features_present::stability_charge::P1,0,0,True,
+feature_file::stability_charge::P2,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P2_features_for_target_stability_charge.csv
+feature_unique::stability_charge::P2,93,93,True,
+features_present::stability_charge::P2,0,0,True,
+feature_file::stability_charge::P3,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P3_features_for_target_stability_charge.csv
+feature_unique::stability_charge::P3,105,105,True,
+features_present::stability_charge::P3,0,0,True,
+nested_P1_P2::stability_charge,True,True,True,
+nested_P2_P3::stability_charge,True,True,True,
+feature_file::stability_discharge::P1,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P1_features_for_target_stability_discharge.csv
+feature_unique::stability_discharge::P1,73,73,True,
+features_present::stability_discharge::P1,0,0,True,
+feature_file::stability_discharge::P2,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P2_features_for_target_stability_discharge.csv
+feature_unique::stability_discharge::P2,93,93,True,
+features_present::stability_discharge::P2,0,0,True,
+feature_file::stability_discharge::P3,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P3_features_for_target_stability_discharge.csv
+feature_unique::stability_discharge::P3,105,105,True,
+features_present::stability_discharge::P3,0,0,True,
+nested_P1_P2::stability_discharge,True,True,True,
+nested_P2_P3::stability_discharge,True,True,True,
+feature_file::stability_worst::P1,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P1_features_for_target_stability_worst.csv
+feature_unique::stability_worst::P1,73,73,True,
+features_present::stability_worst::P1,0,0,True,
+feature_file::stability_worst::P2,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P2_features_for_target_stability_worst.csv
+feature_unique::stability_worst::P2,93,93,True,
+features_present::stability_worst::P2,0,0,True,
+feature_file::stability_worst::P3,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\data\processed\notebook_02\protocol_feature_lists\02_protocol_P3_features_for_target_stability_worst.csv
+feature_unique::stability_worst::P3,105,105,True,
+features_present::stability_worst::P3,0,0,True,
+nested_P1_P2::stability_worst,True,True,True,
+nested_P2_P3::stability_worst,True,True,True,
