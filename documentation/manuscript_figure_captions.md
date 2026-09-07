@@ -1,12 +1,14 @@
+> **Legacy combined-workflow documentation.** These figure files document the earlier combined electrode workflow retained for provenance. The current CMT paper-specific figures and captions are under `papers/cmt/publication/outputs/`.
+
 # Manuscript figure captions
 
 ## Main figures
 
-**Figure 1. Leakage-audited multi-ion insertion-electrode learning workflow.** The study begins with extraction and normalization of 3,354 insertion-electrode records spanning Li, Na, and K. A machine-readable battery-property dependency graph and automatic leakage compiler define target-specific descriptor protocols. Models are then evaluated under random, framework-grouped, family-held-out, chemical-system-held-out, and working-ion-held-out splits. The workflow further includes physics-constrained multi-task learning, uncertainty and applicability-domain analysis, sodium candidate triage, and one convergence-audited fixed-geometry Quantum ESPRESSO spot-check.
+**Figure 1. Leakage-audited multi-ion insertion-electrode learning workflow.** The study begins with extraction and normalization of 3,354 insertion-electrode records spanning Li, Na, and K. A machine-readable battery-property dependency graph and rule-based leakage compiler applied to the expert-defined dependency graph define target-specific descriptor protocols. Models are then evaluated under random, framework-formula-grouped, coarse-chemistry-family-held-out, host-chemical-system-held-out, and working-ion-held-out splits. The workflow further includes physics-constrained multi-task learning, uncertainty and applicability-domain analysis, sodium candidate triage, and one convergence-audited fixed-geometry Quantum ESPRESSO spot-check.
 
 **Figure 2. Chemical-family composition of the multi-ion dataset.** Stacked bars show the percentage of records assigned to the most prevalent coarse chemical families for Li (n = 2,774), Na (n = 416), and K (n = 164). Less frequent categories are combined as “Other families.” The plot describes the composition of the extracted computational dataset and does not imply equal or exhaustive coverage of insertion-electrode chemistry.
 
-**Figure 3. Performance optimism associated with post-hoc feature leakage across validation regimes.** Each cell reports the ratio of the best-model mean absolute error (MAE) under the clean composition-only protocol P1 to the corresponding MAE under the full-feature post-hoc baseline P0. P0 excludes the direct target column but permits post-hoc computed-record descriptors that are unavailable at the intended composition-only prediction stage. Ratios greater than one indicate lower apparent error under the leaky baseline. The comparison is shown for random, framework-grouped, chemical-system-held-out, family-held-out, and working-ion-held-out validation.
+**Figure 3. Performance optimism associated with post-hoc feature leakage across validation regimes.** Each cell reports the ratio of the best-model mean absolute error (MAE) under the clean composition-only protocol P1 to the corresponding MAE under the full-feature post-hoc baseline P0. P0 excludes the direct target column but permits post-hoc computed-record descriptors that are unavailable at the intended composition-only prediction stage. Ratios greater than one indicate lower apparent error under the leaky baseline. The comparison is shown for random, framework-formula-grouped, host-chemical-system-held-out, coarse-chemistry-family-held-out, and working-ion-held-out validation.
 
 **Figure 4. Reduction in physical inconsistency from soft physics constraints under the clean composition-only protocol.** Bars show the percentage reduction in mean energy-consistency MAE and stability-consistency MAE for soft-constrained direct predictions relative to unconstrained direct predictions. Reductions are summarized separately across the five validation regimes. This figure evaluates physical self-consistency and should not be interpreted as evidence that soft constraints universally improve every predictive target.
 
@@ -18,7 +20,7 @@
 
 **Figure S1. Target-specific feature counts across descriptor protocols.** The heat map reports the number of features retained for each target under protocols P0-P4.
 
-**Figure S2. Validation of the automatic leakage compiler against the locked expert audit.** Leakage-class and protocol-allowance agreement are shown for each target. Across 2,430 audited target-feature rows, agreement was 100% and no false-safe classification was observed.
+**Figure S2. Validation of the rule-based leakage compiler applied to the expert-defined dependency graph against the locked expert audit.** Leakage-class and protocol-allowance agreement are shown for each target. Across 2,430 audited target-feature rows, agreement was 100% and no false-safe classification was observed.
 
 **Figure S3. Clean-protocol MAE relative to random splitting.** Each cell gives the ratio of P1 MAE under the indicated split to P1 MAE under random splitting for the same target. Values above one indicate degradation relative to random splitting.
 

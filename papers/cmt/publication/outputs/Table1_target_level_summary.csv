@@ -1,0 +1,10 @@
+Target,P1 features,P2 features,P3 features,Primary earliest useful stage,5/10/20% threshold assignment,Ridge exact-stage sensitivity,Domain tests with P1-to-P3 MAE and RMSE reduction
+Average voltage,73,93,108,P1,stable,same,3/3
+Gravimetric capacity,73,93,112,P1,stable,same,3/3
+Volumetric capacity,73,93,112,P1,stable,same,3/3
+Gravimetric energy,73,93,108,P1,stable,same,3/3
+Volumetric energy,73,93,108,P1,stable,same,3/3
+Maximum volume change,73,77,96,None through P3,stable,same,3/3
+Charged-state stability,73,93,105,P2,sensitive,different,3/3
+Discharged-state stability,73,93,105,P3,sensitive,different,2/3
+Worst endpoint stability,73,93,105,P2,sensitive,different,3/3

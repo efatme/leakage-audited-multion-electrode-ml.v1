@@ -1,15 +1,13 @@
 cff-version: 1.2.0
-message: Please cite the associated manuscript and this software repository.
-title: Leakage-audited multi-ion insertion-electrode learning workflow
+message: Please cite the associated manuscript(s) and this software repository when reusing the code or frozen analysis outputs.
+title: Multi-ion insertion-electrode machine-learning provenance and reproducibility repository
 type: software
 authors:
-- family-names: Efat
-  given-names: Md. Efatuzzaman
-  email: efatuzzaman@gmail.com
-- family-names: Islam
-  given-names: Md. Saiful
+  - family-names: Efat
+    given-names: Md. Efatuzzaman
+    email: efatuzzaman@gmail.com
+  - family-names: Islam
+    given-names: Md. Saiful
 repository-code: https://github.com/efatme/leakage-audited-multion-electrode-ml.v1
 url: https://github.com/efatme/leakage-audited-multion-electrode-ml.v1
 license: BSD-3-Clause
-version: 1.0.0
-date-released: '2026-07-22'

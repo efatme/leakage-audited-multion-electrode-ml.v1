@@ -1,0 +1,14 @@
+{
+  "analysis_id": "cmt_stage_f_v1",
+  "stage": "F",
+  "status": "PASS",
+  "model_fitting_performed": false,
+  "analysis_status": "FROZEN_FOR_PUBLICATION_OUTPUTS",
+  "n_targets": 9,
+  "primary_estimator": "fixed ExtraTrees from Stage C",
+  "primary_validation": "framework-formula-grouped validation",
+  "ExtraTrees_Ridge_exact_earliest_stage_agreement": "6/9",
+  "threshold_5_10_20_exact_stage_stability": "6/9",
+  "domain_P1_to_P3_macro_both_metrics_improve": "26/27",
+  "timestamp_utc": "2026-09-07T21:14:45Z"
+}

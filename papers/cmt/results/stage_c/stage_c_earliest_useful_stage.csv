@@ -1,0 +1,10 @@
+target,earliest_useful_stage,criterion_mae_skill_threshold,criterion_rmse_skill_threshold,criterion_bootstrap_intervals_entirely_above_zero,validation,estimator
+average_voltage,P1,0.1,0.1,True,framework-formula-grouped validation,fixed ExtraTrees
+capacity_grav,P1,0.1,0.1,True,framework-formula-grouped validation,fixed ExtraTrees
+capacity_vol,P1,0.1,0.1,True,framework-formula-grouped validation,fixed ExtraTrees
+energy_grav,P1,0.1,0.1,True,framework-formula-grouped validation,fixed ExtraTrees
+energy_vol,P1,0.1,0.1,True,framework-formula-grouped validation,fixed ExtraTrees
+max_delta_volume,none_through_P3,0.1,0.1,True,framework-formula-grouped validation,fixed ExtraTrees
+stability_charge,P2,0.1,0.1,True,framework-formula-grouped validation,fixed ExtraTrees
+stability_discharge,P3,0.1,0.1,True,framework-formula-grouped validation,fixed ExtraTrees
+stability_worst,P2,0.1,0.1,True,framework-formula-grouped validation,fixed ExtraTrees

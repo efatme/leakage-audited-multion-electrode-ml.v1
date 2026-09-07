@@ -1,0 +1,12 @@
+{
+  "joblib": "1.5.3",
+  "numpy": "1.26.4",
+  "os_cpu_count": 48,
+  "pandas": "3.0.3",
+  "platform": "Windows-10-10.0.20348-SP0",
+  "python": "3.11.14 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 18:30:03) [MSC v.1929 64 bit (AMD64)]",
+  "pyyaml": "6.0.3",
+  "scikit_learn": "1.9.0",
+  "scipy": "1.17.1",
+  "timestamp_utc": "2026-09-07T16:54:08Z"
+}

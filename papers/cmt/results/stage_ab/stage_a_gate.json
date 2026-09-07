@@ -1,0 +1,18 @@
+{
+  "analysis_id": "cmt_stage_ab_v1",
+  "config_sha256": "2074869bf3a12f6994202fb3cd85fc43e031ba76589cb8666c215fda4718b44a",
+  "failed_checks": [],
+  "n_checks": 221,
+  "n_failed_checks": 0,
+  "n_records": 3201,
+  "n_targets": 9,
+  "primary_validation": "framework-formula-grouped validation",
+  "stage": "A",
+  "stages": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "status": "PASS",
+  "timestamp_utc": "2026-09-07T15:13:33Z"
+}

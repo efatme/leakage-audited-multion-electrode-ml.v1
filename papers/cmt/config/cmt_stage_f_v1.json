@@ -1,0 +1,19 @@
+{
+  "analysis_id": "cmt_stage_f_v1",
+  "purpose": "freeze CMT analysis after Stages A-E; no model fitting",
+  "primary_estimator": "fixed ExtraTrees from Stage C",
+  "primary_validation": "framework-formula-grouped validation",
+  "useful_skill_threshold": 0.10,
+  "bootstrap_replicates": 5000,
+  "main_text_controls": [],
+  "si_controls": [
+    "P0 permissive/full-information baseline",
+    "P4 direct-target positive-control stress test",
+    "leakage x domain interaction",
+    "Ridge estimator sensitivity",
+    "5% and 20% useful-skill threshold sensitivity"
+  ],
+  "repository_only_or_optional": [
+    "physics-constrained multitask benchmark unless specifically needed by reviewers"
+  ]
+}

@@ -1,0 +1,26 @@
+check,expected,observed,pass,detail
+input_exists::stage_ab_config,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\config\cmt_stage_ab_v1.yaml
+input_exists::stage_b_gate,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_ab\stage_b_gate.json
+input_exists::stage_b_oof_predictions,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_ab\stage_b_oof_predictions.csv
+input_exists::stage_b_primary_summary,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_ab\stage_b_primary_summary.csv
+input_exists::stage_a_split_manifest,True,True,True,C:\Users\IICT-1\cmt new\leakage-audited-multion-electrode-ml.v1-main\papers\cmt\results\stage_ab\stage_a_primary_split_manifest.csv
+stage_b_gate_status,PASS,PASS,True,
+stage_b_scope,primary_framework_formula_grouped_only,primary_framework_formula_grouped_only,True,
+stage_b_n_oof_predictions,86427,86427,True,
+stage_b_n_extratrees_fits,135,135,True,
+threshold_matches_stage_ab_mae,0.1,0.1,True,
+threshold_matches_stage_ab_rmse,0.1,0.1,True,
+oof_required_columns,0,0,True,
+oof_total_rows,86427,86427,True,
+n_targets,9,9,True,
+n_stages,3,3,True,
+n_folds,5,5,True,
+all_numeric_inputs_finite,True,True,True,
+complete_record_coverage_each_target_stage,3201,3201,True,
+no_duplicate_records_each_target_stage,True,True,True,
+record_fold_group_metadata_identical_across_blocks,True,True,True,
+target_truth_identical_across_stages,True,True,True,
+framework_group_assigned_to_one_test_fold,True,True,True,
+framework_group_count,1955,1955,True,
+split_manifest_record_count,3201,3201,True,
+recomputed_points_match_stage_b_summary,True,True,True,

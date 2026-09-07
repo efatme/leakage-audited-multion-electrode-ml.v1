@@ -13,6 +13,7 @@ dependencies:
   - networkx
   - joblib
   - pyyaml
+  - pytest
   - pymatgen
   - pip
   - pip:

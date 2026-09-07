@@ -1,145 +1,105 @@
+# Multi-ion insertion-electrode machine-learning reproducibility repository
 
-# Leakage-audited multi-ion insertion-electrode learning
+This repository preserves the shared extraction, descriptor-provenance, validation, uncertainty, screening, and DFT infrastructure for a multi-ion insertion-electrode machine-learning research program. It also contains a paper-specific, frozen analysis for the **Computational Materials Today (CMT)** study on **target-specific information provenance and stage-dependent learnability**.
 
-This repository contains the clean-room computational package for a
-physics-constrained, leakage-audited machine-learning study of multi-ion
-insertion-electrode materials. The workflow combines target-specific leakage
-control, validation under increasingly difficult chemical-domain shifts,
-physics-consistency analysis, uncertainty and applicability-domain diagnostics,
-sodium-ion candidate triage, and one original Quantum ESPRESSO computational
-spot check.
+The repository intentionally preserves earlier analysis history rather than rewriting it in place. Current paper-specific outputs are separated from legacy combined-workflow outputs so that provenance remains auditable.
 
-Repository:  
-https://github.com/efatme/leakage-audited-multion-electrode-ml.v1
+## Paper map
 
-## Scientific scope
+| Study | Scientific identity | Repository status |
+|---|---|---|
+| PLOS ONE | Cross-database transferability for 2D materials | Separate project/repository; not reproduced here |
+| CMT | Target-specific descriptor eligibility and stage-dependent learnability for computed insertion electrodes | **Frozen analysis available under `papers/cmt/`** |
+| Digital Discovery | Decision-aware active learning under chemical-domain shift | Planned; no final analysis committed yet |
+| Legacy electrode workflow | Leakage controls, physics consistency, UQ/AD, sodium triage, and DFT spot check | Preserved under the original notebooks/results/figures for provenance |
 
-The repository supports the following study components:
+## CMT analysis status
 
-- multi-ion insertion-electrode data extraction and harmonization;
-- a machine-readable battery-property dependency graph;
-- automatic target-specific leakage compilation;
-- leakage-permissive and leakage-controlled descriptor protocols;
-- random, grouped, and leave-ion-out validation;
-- physics-constrained multi-task learning;
-- uncertainty and applicability-domain analysis;
-- sodium-ion candidate screening and provenance-controlled DFT preparation;
-- publication figures generated only from locked outputs.
+The CMT analysis is frozen for publication outputs. The primary comparison uses the same fixed ExtraTrees estimator across the nested information stages:
 
-The study is a computational benchmarking and validation investigation. It does
-not claim experimental validation, comprehensive materials discovery, or
-general real-world deployment performance.
+- **P1:** composition representation;
+- **P2:** composition plus target-eligible descriptors from DFT-relaxed structures;
+- **P3:** legitimate target-specific post-DFT decision-support information.
+
+The primary validation is **framework-formula-grouped validation**, where `framework_uid` means `working ion | reduced framework formula`. It is not a crystallographic framework identifier.
+
+The CMT pipeline and frozen results are documented in:
+
+- `papers/cmt/README.md`
+- `papers/cmt/results/stage_f/CMT_ANALYSIS_FREEZE_SUMMARY.md`
+- `papers/cmt/publication/outputs/`
 
 ## Repository structure
 
 | Path | Contents |
 |---|---|
-| `notebooks/` | Fourteen clean notebooks in the documented run order |
+| `papers/cmt/` | Current CMT stage-dependent-learnability analysis, gates, results, tables, and publication outputs |
+| `notebooks/` | Fourteen original workflow notebooks retained for provenance |
 | `data/processed/` | Processed and harmonized tables used by the workflow |
-| `results/` | Audits, metrics, predictions, statistics, and validation outputs |
+| `results/` | Historical audits, metrics, predictions, statistics, and validation outputs |
 | `provenance/` | Decisions, manifests, hashes, and supplementary evidence |
-| `configuration/` | Runtime, DFT, repository-layout, and figure configuration |
-| `software/` | Reusable leakage and manuscript-figure utilities |
-| `figures/main/` | Six manuscript figures in PDF and 600-dpi PNG |
-| `figures/supplementary/` | Ten supplementary figures in PDF and 600-dpi PNG |
-| `figures/source_data/` | Figure-level source tables and hash records |
-| `documentation/` | Run order, data policy, captions, and figure instructions |
-| `dft_validation/` | Frozen Quantum ESPRESSO fixed-geometry spot-check package |
+| `configuration/` | Runtime, DFT, repository-layout, and legacy figure configuration |
+| `software/` | Shared repository utilities, dependency-compiler code, and tests |
+| `figures/` | **Legacy combined-workflow figure set**, retained for provenance; not the current CMT main-figure set |
+| `documentation/` | Run order, data policy, legacy figure documentation, and GitHub/repository guidance |
+| `dft_validation/` | Frozen Quantum ESPRESSO fixed-geometry spot-check package and provenance |
 
 ## Installation
 
 A Conda environment specification is provided in `environment.yml`.
 
 ```bash
-git clone https://github.com/efatme/leakage-audited-multion-electrode-ml.v1.git
-cd leakage-audited-multion-electrode-ml.v1
 conda env create -f environment.yml
 conda activate cmt-insertion-electrode-workflow
 jupyter lab
 ```
 
-The environment includes the Python libraries used by the notebooks and figure
-generator. Quantum ESPRESSO is not installed by `environment.yml`.
+Quantum ESPRESSO is not installed by `environment.yml`.
 
-## Notebook execution
+## CMT reproduction commands
 
-The authoritative sequence is listed in
-[`documentation/run_order.md`](documentation/run_order.md). Run notebooks from
-the repository root so that repository-relative paths resolve consistently.
-
-Some upstream acquisition steps require authorized Materials Project access.
-The raw sodium acquisition JSON is intentionally not redistributed. Its policy
-is recorded in `configuration/runtime_data_policy.json`. The processed evidence
-needed to inspect the published analyses is included.
-
-## Reproducing the figures
-
-From the repository root, run:
+Run commands from the repository root. The analysis is already frozen, so rerunning is necessary only for independent reproduction.
 
 ```bash
-python software/manuscript_figures.py
+python papers/cmt/analysis/run_stage_ab.py
+python papers/cmt/analysis/run_stage_c.py
+python papers/cmt/analysis/run_stage_d.py
+python papers/cmt/analysis/run_stage_e.py
+python papers/cmt/analysis/run_stage_f.py
 ```
 
-Alternatively, run:
+The final publication outputs can be verified without refitting models:
 
-```text
-notebooks/14_manuscript_figure_generation.ipynb
+```bash
+python papers/cmt/publication/verify_cmt_publication_outputs.py
 ```
 
-The generator reads locked repository outputs only. It does not fit models,
-change splits, alter leakage protocols, re-rank candidates, or execute Quantum
-ESPRESSO. Figure captions and manuscript placement guidance are available in:
+## Legacy notebook workflow
 
-- `documentation/manuscript_figure_captions.md`
-- `documentation/manuscript_figure_map.md`
-- `documentation/figure_generation.md`
+The original 14-notebook sequence is retained because it records the development history of the electrode project. See `documentation/run_order.md`. The legacy figure set in `figures/` belongs to that earlier combined workflow and should not be confused with the current CMT publication outputs.
 
-## Quantum ESPRESSO spot check
+## DFT scope and known provenance boundary
 
-The accepted fixed-geometry PBE result for the representative sodium-ion
-candidate is:
+The accepted fixed-geometry PBE voltage is reconstructed from the accepted selected and denser-reference SCF outputs. Endpoint relaxation attempts were excluded because they did not meet the prescribed force-convergence criterion.
 
-- selected-mesh average voltage: **3.203420972 V**;
-- denser-reference average voltage: **3.203061629 V**;
-- absolute difference: **0.000359343 V**.
+A historical charged-state force audit came from a **different, non-accepted calculation** and has been explicitly relabeled under `dft_validation/audits/`. It must not be interpreted as a force audit of the accepted charged SCF energy.
 
-Reconstruct and verify the frozen result from the repository root:
+Reconstruct and verify the frozen DFT result with:
 
 ```bash
 python dft_validation/scripts/reconstruct_voltage.py
 python dft_validation/scripts/verify_repository.py
 ```
 
-Endpoint-relaxation attempts did not satisfy the prescribed force-convergence
-criteria. Their energies were excluded from the reported voltage. No phonon,
-diffusion, density-of-states, band-structure, experimental, or multi-candidate
-DFT validation is claimed.
+## Data and repository policy
 
-## Data availability and provenance
+Raw Materials Project acquisition payloads, credentials, pseudopotential binaries, restart files, private caches, and local ZIP packaging artifacts are not tracked. Processed evidence required to inspect the analyses is included.
 
-Selected processed tables, predictions, metrics, candidate structures, audit
-records, figure source data, and DFT evidence are included. Raw Materials
-Project acquisition payloads, credentials, pseudopotential binaries, restart
-files, private caches, and unrelated historical projects are not redistributed.
+Large historical CSV outputs are retained because they support prior analyses. New packaging ZIPs, temporary model checkpoints, and local submission bundles are intentionally excluded from Git history.
 
-See:
+## Citation and license
 
-- `documentation/data_availability.md`
-- `configuration/runtime_data_policy.json`
-- `provenance/`
-- `dft_validation/manifests/`
-
-## Citation
-
-Citation metadata are provided in `CITATION.cff`. After a versioned archival
-release is deposited, add the release DOI to the citation metadata and
-manuscript Code Availability statement.
-
-## License
-
-Original repository content is distributed under the BSD-3-Clause License.
-See `LICENSE`. Third-party notices associated with the DFT evidence are retained
-under `dft_validation/`.
+Citation metadata are provided in `CITATION.cff`. Original repository content is distributed under the BSD-3-Clause License. See `LICENSE` and the third-party notices retained under `dft_validation/`.
 
 ## Authors
 

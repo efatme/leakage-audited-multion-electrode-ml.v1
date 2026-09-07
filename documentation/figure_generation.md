@@ -1,3 +1,5 @@
+> **Legacy combined-workflow documentation.** These figure files document the earlier combined electrode workflow retained for provenance. The current CMT paper-specific figures and captions are under `papers/cmt/publication/outputs/`.
+
 # Figure-generation policy and instructions
 
 Publication figures are generated only from locked repository outputs.

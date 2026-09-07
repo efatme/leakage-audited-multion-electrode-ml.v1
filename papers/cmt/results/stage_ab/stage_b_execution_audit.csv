@@ -1,0 +1,6 @@
+check,expected,observed,pass,detail
+fold_metric_rows,135,135,True,
+oof_prediction_rows,86427,86427,True,
+finite_predictions,True,True,True,
+complete_oof_coverage_each_target_stage,True,True,True,
+no_duplicate_oof_record_each_target_stage,True,True,True,

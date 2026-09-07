@@ -1,0 +1,56 @@
+NON-ACCEPTED CHARGED CALCULATION — FORCE-VECTOR AUDIT
+========================================================
+PROVENANCE WARNING: This audit belongs to a different charged-state calculation
+than the accepted selected 5x6x4 SCF used in the reported voltage. The energy
+reported below (-1436.49946735 Ry) does NOT match the accepted charged SCF
+energy (-1436.42910286 Ry). This file is retained only as historical evidence
+of an excluded/non-accepted calculation and must not be used to audit the
+accepted voltage energy chain.
+
+Atoms: 22
+Final energy: -1436.499467350000 Ry
+
+Printed total force: 0.004199000 Ry/bohr
+Computed net-force norm: 0.004199189 Ry/bohr
+Absolute disagreement: 1.887e-07 Ry/bohr
+NET_FORCE_BLOCK_VALID=PASS
+
+Total SCF correction: 0.000002000 Ry/bohr
+SCF correction / force: 0.000476
+
+Force-component threshold: 0.0003000 Ry/bohr
+Maximum absolute component: 0.002231910 Ry/bohr
+Maximum-component atom: 1 (Na)
+Maximum-component axis: x
+Signed maximum component: -0.002231910 Ry/bohr
+
+Maximum atomic force norm: 0.002859823 Ry/bohr
+Maximum-norm atom: 1 (Na)
+Components above threshold: 8
+Atoms above threshold: 4
+
+CHARGED_GEOMETRY_DECISION=FAIL
+
+COMPONENTS ABOVE THRESHOLD
+--------------------------------------------------------
+Atom   1 Na x: -0.002231910 Ry/bohr
+Atom   2 Na x: -0.002231910 Ry/bohr
+Atom   1 Na z: -0.001526750 Ry/bohr
+Atom   2 Na z: +0.001526750 Ry/bohr
+Atom   1 Na y: -0.000930700 Ry/bohr
+Atom   2 Na y: +0.000930700 Ry/bohr
+Atom  10  O x: +0.000303600 Ry/bohr
+Atom  21  O x: +0.000303600 Ry/bohr
+
+TEN LARGEST ATOMIC FORCE NORMS
+--------------------------------------------------------
+Atom   1 Na: |F|=0.002859823; Fx=-0.002231910; Fy=-0.000930700; Fz=-0.001526750; if_pos=1 1 1
+Atom   2 Na: |F|=0.002859823; Fx=-0.002231910; Fy=+0.000930700; Fz=+0.001526750; if_pos=1 1 1
+Atom  10  O: |F|=0.000308139; Fx=+0.000303600; Fy=-0.000032980; Fz=+0.000041100; if_pos=1 1 1
+Atom  21  O: |F|=0.000308139; Fx=+0.000303600; Fy=+0.000032980; Fz=-0.000041100; if_pos=1 1 1
+Atom   7  C: |F|=0.000290278; Fx=+0.000230630; Fy=-0.000080040; Fz=+0.000157050; if_pos=1 1 1
+Atom   8  C: |F|=0.000290278; Fx=+0.000230630; Fy=+0.000080040; Fz=-0.000157050; if_pos=1 1 1
+Atom   9  O: |F|=0.000284803; Fx=+0.000155900; Fy=+0.000156610; Fz=-0.000179670; if_pos=1 1 1
+Atom  22  O: |F|=0.000284803; Fx=+0.000155900; Fy=-0.000156610; Fz=+0.000179670; if_pos=1 1 1
+Atom  14  O: |F|=0.000251332; Fx=+0.000251190; Fy=+0.000001380; Fz=-0.000008340; if_pos=1 1 1
+Atom  17  O: |F|=0.000251332; Fx=+0.000251190; Fy=-0.000001380; Fz=+0.000008340; if_pos=1 1 1

@@ -1,0 +1,15 @@
+{
+  "analysis_freeze_recommendation": "inspect Stage E results; no further model fitting is planned unless a serious inconsistency is found",
+  "analysis_id": "cmt_stage_e_v1",
+  "config_sha256": "cbfafab13eecd6c55b30b387af6641df1f6f5ecdeda37bfc58679ac4a53001c1",
+  "n_bootstrap_replicates": 5000,
+  "n_oof_predictions": 86427,
+  "n_ridge_fits": 135,
+  "n_targets": 9,
+  "primary_estimator_unchanged": "fixed ExtraTrees from Stage C",
+  "same_earliest_stage_count": 6,
+  "secondary_estimator": "Ridge(alpha=1.0) with median imputation and standardization",
+  "stage": "E",
+  "status": "PASS",
+  "timestamp_utc": "2026-09-07T18:28:52Z"
+}

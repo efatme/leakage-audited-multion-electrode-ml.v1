@@ -1,4 +1,4 @@
-from electrode_audit.leakage_compiler import classify_feature, protocol_allows
+from software.notebook_03.electrode_audit.leakage_compiler import classify_feature, protocol_allows
 
 
 def test_energy_definition_is_L2():
