@@ -4,6 +4,16 @@ This repository preserves the shared extraction, descriptor-provenance, validati
 
 The repository intentionally preserves earlier analysis history rather than rewriting it in place. Current paper-specific outputs are separated from legacy combined-workflow outputs so that provenance remains auditable.
 
+## Archived CMT release
+
+The frozen Computational Materials Today analysis is archived on Zenodo:
+
+**DOI:** [10.5281/zenodo.22651122](https://doi.org/10.5281/zenodo.22651122)
+
+GitHub release: `cmt-analysis-v1.0.1`
+
+This archived release corresponds to the frozen Stage A–F CMT analysis and its publication outputs.
+
 ## Paper map
 
 | Study | Scientific identity | Repository status |

@@ -11,3 +11,6 @@ authors:
 repository-code: https://github.com/efatme/leakage-audited-multion-electrode-ml.v1
 url: https://github.com/efatme/leakage-audited-multion-electrode-ml.v1
 license: BSD-3-Clause
+version: 1.0.1
+date-released: '2026-09-08'
+doi: 10.5281/zenodo.22651122
