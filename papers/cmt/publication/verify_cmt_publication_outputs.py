@@ -13,6 +13,8 @@ required_fig_stems = [
     'Fig2_stage_dependent_learnability',
     'Fig3_incremental_information_value',
     'Fig4_chemical_domain_robustness',
+    'Fig5_applicability_domain_diagnostic',
+    'Fig6_sodium_triage_dft_handoff',
 ]
 required_tables = [
     'Table1_target_level_summary.csv',
@@ -20,6 +22,11 @@ required_tables = [
     'TableS2_threshold_sensitivity.csv',
     'TableS3_domain_robustness_summary.csv',
     'TableS4_estimator_sensitivity.csv',
+]
+required_sources = [
+    'source_data/Fig5_applicability_domain_source.csv',
+    'source_data/Fig6_sodium_candidates_source.csv',
+    'source_data/Fig6_dft_voltage_source.csv',
 ]
 required_text = [
     'figure_captions_overlap_controlled.md',
@@ -49,7 +56,7 @@ if MANIFEST.exists():
 required_files = []
 for stem in required_fig_stems:
     required_files += [f'{stem}.pdf', f'{stem}.svg', f'{stem}.tif', f'{stem}_preview.png']
-required_files += required_tables + required_text + ['Fig2_plot_data.csv']
+required_files += required_tables + required_text + required_sources + ['Fig2_plot_data.csv']
 
 for name in required_files:
     p = OUT / name
@@ -100,7 +107,7 @@ if failures:
     sys.exit(1)
 
 print('Publication verification: PASS')
-print('Figures verified: 4 x PDF/SVG/TIFF/PNG-preview')
+print('Figures verified: 6 x PDF/SVG/TIFF/PNG-preview')
 print('Tables verified: 1 main + 4 SI')
 print('Caption exact-overlap audit: 0 flagged rows')
 print('Matplotlib/font-manager not used')

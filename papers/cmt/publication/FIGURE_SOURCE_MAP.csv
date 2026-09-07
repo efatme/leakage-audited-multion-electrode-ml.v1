@@ -1,0 +1,7 @@
+figure,artifact_stem,source_data,role,analysis_freeze_status
+1,Fig1_information_provenance_and_eligibility,"Stage A provenance counts; target-specific P1/P2/P3 feature lists",Core concept,Frozen Stage A-F
+2,Fig2_stage_dependent_learnability,"papers/cmt/results/stage_c/*",Primary result,Frozen Stage A-F
+3,Fig3_incremental_information_value,"papers/cmt/results/stage_c/*",Primary result,Frozen Stage A-F
+4,Fig4_chemical_domain_robustness,"papers/cmt/results/stage_d/* plus Stage C primary",Supporting robustness,Frozen Stage A-F
+5,Fig5_applicability_domain_diagnostic,"figures/source_data/Figure_5_applicability_domain_source.csv",Supporting P1 AD diagnostic,Exact legacy source reused after Stage F
+6,Fig6_sodium_triage_dft_handoff,"figures/source_data/Figure_6_sodium_candidates_source.csv; figures/source_data/Figure_6_dft_voltage_source.csv",Supporting downstream DFT handoff,Exact legacy source reused after Stage F

@@ -2,6 +2,7 @@
 
 ## 2026-09-08 — CMT repository redesign and GitHub cleanup
 
+- Finalized the six-figure CMT publication map: core Figures 1–4 plus exact-data supporting applicability-domain and sodium/DFT handoff Figures 5–6.
 - Added the frozen CMT Stage A–F analysis under `papers/cmt/`.
 - Reframed the repository root as shared infrastructure plus paper-specific analyses instead of a single combined manuscript.
 - Preserved the original 14-notebook electrode workflow and legacy figures for provenance.

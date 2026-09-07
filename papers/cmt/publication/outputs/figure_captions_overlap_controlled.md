@@ -11,3 +11,9 @@ Incremental information value of later computational stages. Relative changes in
 
 ## Figure 4
 Chemical-domain robustness of the net P1-to-P3 information gain. Relative MAE (a) and RMSE (b) reductions are shown for framework-formula-grouped validation and for the host-chemical-system, coarse-chemistry-family, and working-ion holdouts. Positive values indicate lower error at P3 than at P1. Framework-formula values come from the primary analysis, whereas the three chemical-domain panels use descriptive macro point estimates. These holdout results are robustness checks and are not independent earliest-stage classifications.
+
+## Figure 5
+Applicability-domain diagnostic under the clean composition representation. Each point gives the ratio of out-of-domain MAE to in-domain MAE for the P1 applicability-domain analysis across random, framework-formula-grouped, host-chemical-system-held-out, coarse-chemistry-family-held-out, and working-ion-held-out validation. The dashed vertical reference corresponds to equal in-domain and out-of-domain error. Ratios above one indicate higher error among records flagged as out of domain; ratios at or below one show that the distance-based flag is not uniformly monotonic with error. This panel is a supporting diagnostic and is not used to assign the earliest useful information stage.
+
+## Figure 6
+Downstream sodium screening landscape and fixed-geometry PBE handoff. The scatter plot shows the 180 sodium records that passed the predefined multi-property screen, with marker area scaled by the stored final-triage score. The highlighted NaCoPO$_4$CO$_3$ to Na$_3$CoPO$_4$CO$_3$ case was selected for the supporting Quantum ESPRESSO calculation. The selected and denser k-point meshes give 3.203421 and 3.203062 V, respectively, an absolute difference of 0.000359 V. This calculation is presented as a downstream computational handoff and not as statistical validation of the ML or stage-dependent-learnability analysis.
