@@ -1,0 +1,18 @@
+{
+  "python": "3.14.7 | packaged by conda-forge | (main, Sep  2 2026, 21:12:42) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\IICT-1\\miniconda3\\envs\\cmt-insertion-electrode-workflow\\python.exe",
+  "platform": "Windows-2022Server-10.0.20348-SP0",
+  "matplotlib": "3.11.1",
+  "matplotlib_backend": "Agg",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "repository_root": "C:\\Users\\IICT-1\\Desktop\\leakage-audited-multion-electrode-ml.v1\\leakage-audited-multion-electrode-ml.v1",
+  "output_directory": "C:\\Users\\IICT-1\\Desktop\\leakage-audited-multion-electrode-ml.v1\\leakage-audited-multion-electrode-ml.v1\\papers\\cmt\\publication\\submission_artwork",
+  "source_files": {
+    "papers\\cmt\\results\\stage_f\\stage_f_master_result_matrix.csv": "911ac6a14b3946a9c7d27625818fdcf730d4d68429c5835ca3778f0f3a0fb2d5",
+    "papers\\cmt\\results\\stage_d\\stage_d_domain_summary.csv": "3bd8d089ffcb42f3f12ed7ca3651f7ef9f01b1217a0d2df5c0f0bd58360c503b",
+    "papers\\cmt\\publication\\outputs\\source_data\\Fig5_applicability_domain_source.csv": "5a4a3425c8dfcd86d662ef5a86158b1ce0316b8679f5aa02ffc2f5ed88ca60c6",
+    "papers\\cmt\\publication\\outputs\\source_data\\Fig6_sodium_candidates_source.csv": "b88ca64ca49ce5dfbb2db50581afe73c9f9d48cca3d538ddcaa07d2670888832",
+    "papers\\cmt\\publication\\outputs\\source_data\\Fig6_dft_voltage_source.csv": "f8abdee99548d8eeaddb94fe4996dcc57ebeaf62b18b5788d4cf540d13ea4d61"
+  }
+}
