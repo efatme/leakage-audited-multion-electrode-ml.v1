@@ -20,7 +20,6 @@ This archived release corresponds to the frozen Stage A–F CMT analysis and its
 |---|---|---|
 | PLOS ONE | Cross-database transferability for 2D materials | Separate project/repository; not reproduced here |
 | CMT | Target-specific descriptor eligibility and stage-dependent learnability for computed insertion electrodes | **Frozen analysis available under `papers/cmt/`** |
-| Digital Discovery | Decision-aware active learning under chemical-domain shift | Planned; no final analysis committed yet |
 | Legacy electrode workflow | Leakage controls, physics consistency, UQ/AD, sodium triage, and DFT spot check | Preserved under the original notebooks/results/figures for provenance |
 
 ## CMT analysis status
@@ -115,4 +114,4 @@ Citation metadata are provided in `CITATION.cff`. Original repository content is
 
 - Md. Efatuzzaman Efat — corresponding author  
   Email: efatuzzaman@gmail.com
-- Md. Saiful Islam
+- Md. Saiful Islam,Phd

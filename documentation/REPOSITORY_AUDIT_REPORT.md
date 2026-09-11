@@ -7,8 +7,6 @@ Audit date: 2026-09-08
 - Removed local patch/completed-run ZIP archives from the repository tree.
 - Removed Jupyter checkpoint folders and transient CMT runtime fit checkpoints.
 - Added `.gitattributes` and expanded `.gitignore` for cross-platform and packaging hygiene.
-- Reframed the root README as an umbrella reproducibility repository with clear CMT, PLOS ONE, Digital Discovery, and legacy-workflow boundaries.
-- Added `papers/README.md` and a Digital Discovery placeholder without claiming unperformed analyses.
 - Corrected the stale Stage B progress record from 12/27 to the final PASS state of 27/27 blocks, consistent with `stage_b_gate.json`.
 - Relabeled the mismatched charged-state force audit as a non-accepted calculation and documented that it is not part of the accepted voltage energy chain.
 - Synchronized the shared repository path map with notebooks 01–14.

@@ -27,6 +27,3 @@ Those artifacts remain for provenance. They should not be used to redefine the s
 
 The submitted PLOS ONE work concerns cross-database transferability for two-dimensional materials and is scientifically separate from this electrode repository.
 
-## Digital Discovery separation
-
-The planned Digital Discovery work concerns decision-aware active learning under chemical-domain shift. It is not yet frozen and should not reuse CMT stage-dependent-learnability results as if they were active-learning evidence.

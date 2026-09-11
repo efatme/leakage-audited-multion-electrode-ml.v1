@@ -6,7 +6,7 @@
 - Added the frozen CMT Stage A–F analysis under `papers/cmt/`.
 - Reframed the repository root as shared infrastructure plus paper-specific analyses instead of a single combined manuscript.
 - Preserved the original 14-notebook electrode workflow and legacy figures for provenance.
-- Added a Digital Discovery placeholder without claiming unperformed active-learning results.
+
 - Removed local patch ZIPs, completed-run ZIPs, notebook checkpoints, and transient CMT fit checkpoints from the GitHub-ready tree.
 - Added `.gitattributes` for cross-platform line-ending consistency and expanded `.gitignore` for packaging/runtime artifacts.
 - Corrected the stale Stage B progress record to match the final PASS gate (27/27 target-stage blocks).
