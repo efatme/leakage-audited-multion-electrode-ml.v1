@@ -1,8 +1,0 @@
-Reference publication rendering environment
-Python: 3.13.5
-Matplotlib: 3.10.8
-NumPy: 2.3.5
-pandas: 2.2.3
-
-The frozen PDF/SVG/TIFF/PNG artifacts in outputs/ were generated and visually checked in this reference environment.
-They can be verified without Matplotlib using verify_cmt_publication_outputs.py.

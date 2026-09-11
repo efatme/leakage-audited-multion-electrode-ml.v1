@@ -1,38 +1,74 @@
-# CMT publication outputs
+# CMT publication package
 
-This folder contains the **frozen publication figures and tables** for the CMT analysis. No model fitting is performed here.
+This directory contains the frozen publication-layer outputs for the CMT manuscript:
 
-## Windows / broken Matplotlib font installations
+**Effect of Computational Workflow Stage on Machine Learning Prediction of Computed Insertion Electrode Properties**
 
-The supplied PDF, SVG, TIFF, and PNG-preview figures are already rendered and checksum-frozen. **You do not need to re-render them on the Windows server.**
+The publication scripts do not fit or tune machine-learning models. They read the frozen Stage A-F analysis outputs and render or verify the manuscript figures and machine-readable publication tables.
 
-Run only:
+## Canonical layout
+
+```text
+papers/cmt/publication/
+|-- FIGURE_SOURCE_MAP.csv
+|-- make_cmt_submission_figures.py
+|-- verify_cmt_publication_outputs.py
+|-- README.md
+|-- outputs/
+|   |-- Fig2_plot_data.csv
+|   |-- Table1_target_level_summary.csv
+|   |-- TableS1_stage_c_full_skill_bootstrap.csv
+|   |-- TableS2_threshold_sensitivity.csv
+|   |-- TableS3_domain_robustness_summary.csv
+|   |-- TableS4_estimator_sensitivity.csv
+|   `-- source_data/
+|       |-- Fig5_applicability_domain_source.csv
+|       |-- Fig6_dft_voltage_source.csv
+|       `-- Fig6_sodium_candidates_source.csv
+`-- submission_artwork/
+    |-- Fig1_*_submission.{pdf,svg,tif}
+    |-- Fig1_*_submission_preview.png
+    |-- ...
+    |-- Fig6_*_submission.{pdf,svg,tif}
+    |-- Fig6_*_submission_preview.png
+    |-- submission_artwork_run_manifest.json
+    `-- submission_artwork_sha256.csv
+```
+
+`outputs/` contains machine-readable publication tables and the preserved source tables required for the supporting applicability-domain and sodium/DFT-handoff figures.
+
+`submission_artwork/` contains the final journal artwork. PDF and SVG are vector outputs, TIFF files are 600 dpi raster backups, and PNG files are 300 dpi previews.
+
+## Re-render the final figures
+
+From the repository root on Windows:
+
+```bat
+conda activate cmt-insertion-electrode-workflow
+python -u papers\cmt\publication\make_cmt_submission_figures.py --repo-root "%CD%" --check-only
+python -u papers\cmt\publication\make_cmt_submission_figures.py --repo-root "%CD%"
+```
+
+On Linux/macOS:
+
+```bash
+python -u papers/cmt/publication/make_cmt_submission_figures.py --repo-root "$(pwd)" --check-only
+python -u papers/cmt/publication/make_cmt_submission_figures.py --repo-root "$(pwd)"
+```
+
+The renderer uses frozen source data only. Re-rendering the figures does not refit the models.
+
+## Verify the publication package
+
+From the repository root:
 
 ```bash
 python papers/cmt/publication/verify_cmt_publication_outputs.py
 ```
 
-or, for compatibility with the earlier command:
+The verifier checks all six final figures in PDF, SVG, TIFF, and PNG-preview formats; artwork SHA256 values; frozen input hashes from the artwork run manifest; SVG structural validity; the main publication table, four supplementary tables, Figure 2 plot data, and the three preserved supporting source-data tables.
 
-```bash
-python papers/cmt/publication/make_cmt_publication_outputs.py
-```
-
-Both commands perform verification only and do **not** import Matplotlib.
-
-The original renderer for Figures 1–4 is preserved at:
-
-`papers/cmt/publication/reference_rendering/make_cmt_publication_outputs_matplotlib_reference.py`
-
-The exact-data renderer for supporting Figures 5–6 is preserved at:
-
-`papers/cmt/publication/reference_rendering/make_cmt_figures_5_6_exact_source.py`
-
-The analysis environment does not need to be changed to use or verify the frozen figures.
-
-## Figure standard
-
-The main figures are supplied as vector PDF/SVG plus 600 dpi TIFF and 300 dpi PNG previews. Artwork uses publication-scale lettering, restrained line weights, compact legends, and numerical encodings that can be checked against machine-readable source tables. Captions remain outside the artwork.
+The verifier does not import Matplotlib and does not perform model fitting.
 
 ## Main figures
 
@@ -40,19 +76,17 @@ The main figures are supplied as vector PDF/SVG plus 600 dpi TIFF and 300 dpi PN
 2. **Figure 2:** stage-dependent learnability.
 3. **Figure 3:** incremental information value.
 4. **Figure 4:** chemical-domain robustness of the net P1-to-P3 gain.
-5. **Figure 5:** P1 applicability-domain diagnostic across validation regimes.
-6. **Figure 6:** sodium screening landscape with the fixed-geometry PBE handoff candidate.
+5. **Figure 5:** P1 composition-space applicability-domain diagnostic across validation regimes.
+6. **Figure 6:** sodium screening landscape and fixed-geometry PBE handoff.
 
-Figures 1–4 are the core CMT analysis figures. Figures 5–6 are supporting main-text figures retained by manuscript-design choice. They do not redefine the paper's novelty: Figure 5 is a diagnostic, and Figure 6 is a downstream computational handoff rather than statistical validation of the ML analysis.
+Figures 1-4 summarize the core stage-dependent analysis. Figure 5 is a supporting applicability-domain diagnostic. Figure 6 is a downstream computational handoff and is not statistical or experimental validation of the machine-learning models.
 
-## Exact-data provenance for Figures 5–6
+## Figure provenance
 
-Figures 5–6 were rebuilt from the preserved machine-readable source tables rather than from style-transfer or AI-redrawn approximations. Copies of those small source tables are stored under `outputs/source_data/`, with their original repository locations recorded in `FIGURE_SOURCE_MAP.csv`.
+`FIGURE_SOURCE_MAP.csv` records the analysis source for each figure. Figures 2-4 are generated from frozen CMT Stage C/D/F result tables. Figure 1 combines frozen descriptor counts with the pre-specified workflow-stage definitions. Figures 5-6 use the preserved machine-readable tables under `outputs/source_data/`.
 
-## Text-overlap control
+The canonical final submission renderer is:
 
-`figure_captions_overlap_controlled.md` is written in the CMT information-provenance/stage-learnability framing. `TEXT_OVERLAP_FIREWALL.md` records the conceptual separation from the submitted PLOS ONE paper. The existing exact 8-word audit file predates the addition of Figures 5–6; the complete manuscript-level overlap audit should be rerun once the final six-figure manuscript text is frozen.
-
-## Submission files
-
-Use the PDF figures as the primary vector artwork unless the journal portal requests raster artwork. TIFF files are provided as 600 dpi backups. PNG files are repository/manuscript previews.
+```text
+papers/cmt/publication/make_cmt_submission_figures.py
+```

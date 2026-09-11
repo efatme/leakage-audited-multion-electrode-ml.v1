@@ -175,7 +175,15 @@ def mm(x):
 
 def save_all(fig, stem, tiff_dpi=600):
     fig.savefig(OUT / f'{stem}.pdf', bbox_inches='tight')
-    fig.savefig(OUT / f'{stem}.svg', bbox_inches='tight')
+
+    # Matplotlib may emit CRLF in SVG files on Windows.  Normalize the SVG
+    # bytes to LF before hashing so Git checkout/normalization cannot make the
+    # checksum manifest stale on another platform.
+    svg_path = OUT / f'{stem}.svg'
+    fig.savefig(svg_path, bbox_inches='tight')
+    svg_bytes = svg_path.read_bytes().replace(b'\r\n', b'\n').replace(b'\r', b'\n')
+    svg_path.write_bytes(svg_bytes)
+
     fig.savefig(OUT / f'{stem}_preview.png', dpi=300, bbox_inches='tight')
     tiff_path = OUT / f'{stem}.tif'
     try:
@@ -587,17 +595,6 @@ fig.subplots_adjust(left=0.13, right=0.98, top=0.79, bottom=0.14)
 save_all(fig, 'Fig6_sodium_triage_dft_handoff_submission')
 
 
-# Hash manifest makes style-only submission artwork auditable.
-records = []
-for p in sorted(OUT.iterdir()):
-    if p.is_file() and p.name != 'submission_artwork_sha256.csv':
-        records.append({
-            'file': p.name,
-            'sha256': hashlib.sha256(p.read_bytes()).hexdigest(),
-            'bytes': p.stat().st_size,
-        })
-pd.DataFrame(records).to_csv(OUT / 'submission_artwork_sha256.csv', index=False)
-
 run_manifest = {
     'python': sys.version,
     'python_executable': sys.executable,
@@ -610,9 +607,29 @@ run_manifest = {
     'output_directory': str(OUT),
     'source_files': {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in required},
 }
-(OUT / 'submission_artwork_run_manifest.json').write_text(
-    json.dumps(run_manifest, indent=2), encoding='utf-8'
+# Write the run manifest with explicit LF bytes for cross-platform stability.
+(OUT / 'submission_artwork_run_manifest.json').write_bytes(
+    (json.dumps(run_manifest, indent=2) + '\n').encode('utf-8')
 )
+
+# Hash only the final artwork assets.  The checksum CSV and environment/run
+# manifest are metadata and are intentionally excluded from their own asset
+# checksum set.
+records = []
+for p in sorted(OUT.iterdir()):
+    if (
+        p.is_file()
+        and p.name not in {
+            'submission_artwork_sha256.csv',
+            'submission_artwork_run_manifest.json',
+        }
+    ):
+        records.append({
+            'file': p.name,
+            'sha256': hashlib.sha256(p.read_bytes()).hexdigest(),
+            'bytes': p.stat().st_size,
+        })
+pd.DataFrame(records).to_csv(OUT / 'submission_artwork_sha256.csv', index=False)
 
 print('Submission artwork generated from frozen source data.')
 print(f'Output directory: {OUT}')
